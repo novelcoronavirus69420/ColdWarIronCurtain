@@ -159,13 +159,27 @@ add_ideas = {
 	extensive_conscription
 	tot_economic_mobilisation
 	PRC_peoples_army
-	population_growth_explosion
 	foreign_aggression_policy_6
 	defcon_system_5
 	SOV_government_corruption_endemic
 	banditry
 	fiscal_collapse_3
 	Global_Intervention
+	
+	policy_military_temp_3
+	policy_welfare_temp_1
+	policy_cpi_temp_1
+	policy_education_temp_1
+	policy_healthcare_temp_0
+	policy_services_temp_0
+	Progressive_Taxation
+	
+	Elites_Only
+	State_Press
+	Equality
+	Equal_Rights
+	atheist_state
+	gen_notsaga_1
 }
 
 add_opinion_modifier = { target = CHI modifier = hostile_status }
@@ -348,7 +362,6 @@ create_corps_commander = {
 
 1950.5.1 = {
 	drop_cosmetic_tag = yes	
-	white_peace = CHI
 }
 
 1960.1.1 = {
@@ -400,10 +413,10 @@ create_corps_commander = {
 		enc_I = 1
 
 		## WMD ##
-		chemical_weapons = 1
-		chemical_weapons_2 = 1
+		NBC_research = 1
+		nbc_nerve_weapon_0 = 1
 		atomic_research = 1
-		nuclear_reactor = 1
+		atomic_reactor_0 = 1
 	
 		rocket_engines = 1
 		jet_engines = 1

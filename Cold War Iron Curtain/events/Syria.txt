@@ -1,8 +1,10 @@
-﻿###########################
+###########################
 # Syria Events
 ###########################
 
 add_namespace = syria
+
+###50s
 
 #Husni al-Zaim
 country_event = {
@@ -77,6 +79,8 @@ country_event = {
 		name = syr_news.5.a
 	}
 }
+
+###60s
 
 #8th March Coup
 news_event = { 
@@ -206,19 +210,41 @@ country_event = {
 
 	option = {
 		name = syr_news.11.aa
-		SYR = {
-			add_ai_strategy = {
-			    type = alliance
-				id = "SOV"
-				value = 200
-			}
-		}
-		add_to_faction = SYR
+		give_guarantee = SYR
+		SYR = { give_guarantee = SOV }
 	}
 	option = {
 		name = syr_news.11.ab
 	}
 }
+
+###70s
+
+##Peace Attempts
+
+#NEWS Arab League Condemns Peace Treaty
+
+#NEWS Arab League Approves Peace Treaty
+
+##Muslim Brotherhood
+
+#Hafez al-Assad Assassination Attempt
+
+#NEWS Hafez al-Assad Assassination Attempt
+
+#Hafez al-Assad Assassinated
+
+#NEWS Hafez al-Assad Assassinated
+
+#Rifaat al-Assad Assumes Presidency
+
+##Lebanon
+
+#Demand Access to Lebanon
+
+#Demand Access to PLO
+
+###Alt-Path Events###
 
 ###Second Shishakli Dictatorship
 

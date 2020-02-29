@@ -5,6 +5,27 @@ propaganda_efforts = {
 
 	}
 }
+Jebel_Adkhar_War_decisions = {
+	
+	icon = infiltration
+	visible = {
+		OMA = { has_country_flag = Jebel_Adkhar_War }
+		country_exists = SMI
+		country_exists = OMA
+	}
+}
+Eritrean_War = {
+	
+	icon = infiltration
+	visible = {
+		ETH = { 
+			has_country_flag = Eritrean_War 
+			owns_state = 1000
+		}
+		country_exists = ERI
+		country_exists = ETH
+	}
+}
 korean_war = {
 	icon = generic_propaganda
 
@@ -233,7 +254,7 @@ demobilization = {
 
 economy_decisions = {
 	icon = generic_economy
-
+	priority = 58
 }
 
 prospect_for_resources = {
@@ -378,6 +399,33 @@ uia_decisions = {
 	}
 }
 
+FLN_decisions = {
+	
+	icon = infiltration
+	scripted_gui = country_state_target_FLN_menu_panel
+	visible = {
+		has_country_flag = algerian_seccessionism
+	}
+}
+UPC_decisions = {
+	
+	icon = infiltration
+	visible = {
+		
+		OR = {
+			has_country_flag = bamileke_seccessionism
+			tag = FRA
+		}
+	}
+}
+Anyanya_decisions = {
+	
+	icon = infiltration
+	visible = {
+		has_global_flag = Anyanya_Formed
+		country_exists = SSU
+	}
+}
 Maquis_decisions = {
 	
 	icon = infiltration
@@ -413,7 +461,7 @@ UAR_Jordan_decisions = {
 	allowed = {
 		tag = EGY
 		country_exists = JOR
-		#has_cosmetic_tag = UAR
+		has_cosmetic_tag = UAR
 	}
 }
 UAR_Lebanon_decisions = {
@@ -421,10 +469,143 @@ UAR_Lebanon_decisions = {
 	icon = generic_independence
 	allowed = {
 		tag = EGY
-		country_exists = JOR
-		#has_cosmetic_tag = UAR
+		country_exists = LEB
+		has_cosmetic_tag = UAR
 	}
 }
+
+UAR_Algeria_decisions = {
+	
+	icon = generic_independence
+	allowed = {
+		tag = EGY
+		country_exists = ALG
+		has_cosmetic_tag = UAR
+	}
+}
+
+UAR_Bahrein_decisions = {
+	
+	icon = generic_independence
+	allowed = {
+		tag = EGY
+		country_exists = BAH
+		has_cosmetic_tag = UAR
+	}
+}
+
+UAR_South_Yemen_decisions = {
+	
+	icon = generic_independence
+	allowed = {
+		tag = EGY
+		country_exists = DRY
+		has_cosmetic_tag = UAR
+	}
+}
+
+UAR_Iraq_decisions = {
+	
+	icon = generic_independence
+	allowed = {
+		tag = EGY
+		country_exists = IRQ
+		has_cosmetic_tag = UAR
+	}
+}
+
+UAR_Kuwait_decisions = {
+	
+	icon = generic_independence
+	allowed = {
+		tag = EGY
+		country_exists = KUW
+		has_cosmetic_tag = UAR
+	}
+}
+
+
+
+UAR_Libya_decisions = {
+	
+	icon = generic_independence
+	allowed = {
+		tag = EGY
+		country_exists = LBA
+		has_cosmetic_tag = UAR
+	}
+}
+
+UAR_Morrocco_decisions = {
+	
+	icon = generic_independence
+	allowed = {
+		tag = EGY
+		country_exists = MOR
+		has_cosmetic_tag = UAR
+	}
+}
+
+UAR_Oman_decisions = {
+	
+	icon = generic_independence
+	allowed = {
+		tag = EGY
+		country_exists = OMA
+		has_cosmetic_tag = UAR
+	}
+}
+
+UAR_Qatar_decisions = {
+	
+	icon = generic_independence
+	allowed = {
+		tag = EGY
+		country_exists = QAT
+		has_cosmetic_tag = UAR
+	}
+}
+
+UAR_Saudi_Arabia_decisions = {
+	
+	icon = generic_independence
+	allowed = {
+		tag = EGY
+		country_exists = SAU
+		has_cosmetic_tag = UAR
+	}
+}
+
+UAR_Syria_decisions = {
+	
+	icon = generic_independence
+	allowed = {
+		tag = EGY
+		country_exists = SYR
+		has_cosmetic_tag = UAR
+	}
+}
+
+UAR_Tunisia_decisions = {
+	
+	icon = generic_independence
+	allowed = {
+		tag = EGY
+		country_exists = TUN
+		has_cosmetic_tag = UAR
+	}
+}
+
+UAR_Kingdom_of_Yemen_decisions = {
+	
+	icon = generic_independence
+	allowed = {
+		tag = EGY
+		country_exists = YEM
+		has_cosmetic_tag = UAR
+	}
+}
+
 
 Guinea_Bissau_War_of_Independence_category = {
 	#icon = GFX_Indochina_Decision
@@ -436,6 +617,12 @@ Guinea_Bissau_War_of_Independence_category = {
 		always = yes
 	}
 	priority = 85
+}
+imf_decisions = {
+	allowed = {
+		always = yes
+	}
+	priority = 60
 }
 Laotion_Civil_War_Decisions_category = {
 	#icon = GFX_Indochina_Decision

@@ -2433,9 +2433,9 @@
  USA_mechanized_marine_equipment_3:0 "LVTP-7"
  USA_mechanized_marine_equipment_3_short:0 "LVTP-7"
  USA_mechanized_marine_equipment_3_desc:0 "The LVTP-7 is an amphibious APC designed in 1972 by the Food Machinery Corporation. It saw conflicts in the Falklands, Grenada, the Gulf, Syria, and Iraq. The LVTP-7 uses a 8V-53T engine and can travel 23 miles at 8.2 mph in water. Most notably, the LVTP-7 is capable of travelling in sea state 5, which is classified as “rough” with medium-high sea swelling, making is excellent at dealing with harsh weather conditions than the LVTP-5. Additionally, it is far more armored than the LVTP-5. Because it can impressively travel in sea state 5 and is more well protected, it replaced the LVTP-5. It also features smoke dispersers."
- USA_mechanized_marine_equipment_4:0 "AAV-7"
- USA_mechanized_marine_equipment_4_short:0 "AAV-7"
- USA_mechanized_marine_equipment_4_desc:0 "The AAV-7 is an amphibious APC designed in 1984 by the Food Machinery Corporation. It has seen combat in the Gulf, Syria, and Iraq. The AAV-7 uses a VTAC RAM-RS 525 hp engine and can travel roughly the same as the LVTP-7. It has an improved engine, transmission, weapons system, and is easier to maintain than the LVTP-7. It also has a number of safety improvements to reduce the effects of hits. "
+ USA_mechanized_marine_equipment_4:0 "LVTP-7A1"
+ USA_mechanized_marine_equipment_4_short:0 "LVTP-7A1"
+ USA_mechanized_marine_equipment_4_desc:0 "The LVTP-7A1 is an amphibious APC designed in 1984 by the Food Machinery Corporation. It has seen combat in the Gulf, Syria, and Iraq. The LVTP-7A1 uses a VTAC RAM-RS 525 hp engine and can travel roughly the same as the LVTP-7. It has an improved engine, transmission, weapons system, and is easier to maintain than the LVTP-7. It also has a number of safety improvements to reduce the effects of hits. "
  USA_mechanized_marine_equipment_5:0 "EFVP-1 Advanced Amphibious Assault Vehicle"
  USA_mechanized_marine_equipment_5_short:0 "EFVP-1 AAAV"
  USA_mechanized_marine_equipment_5_desc:0 "The EFVP-1 AAAV is an amphibious IFV project designed by General Dynamics that was cancelled. The EFVP-1 used a MT 883 ka engine although it was like that it would use a different engine as production went on. It is capable of travelling 75 miles in water at an impressive swimming speed of 28.6 mph. The vehicle would have also featured an IFV style turret for added fire support. The exact armaments are unknown but it could potentially hold anything from autocannons to ATGMs. The project costed 3 billion to develop but was eventually cancelled as it was estimated to cost an additional 12 billion to create the remainder of what the vehicle was desired to do. It saw combat in the proving ground pool when a piece of it came off during testing and one of the designers, angry that it did this again, kicked it hard enough to break his foot. "
@@ -3984,15 +3984,15 @@
  SOV_rocket_artillery_equipment_1_short:0 "Rocket Artillery"
  
  SOV_motorized_rocket_equipment_1:0 "BM-13 Katyusha"
- SOV_motorized_rocket_equipment_1_short:0 "Katyusha"
+ SOV_motorized_rocket_equipment_1_short:0 "BM-13 Katyusha"
  SOV_motorized_rocket_equipment_2:0 "BM-21 Grad"
- SOV_motorized_rocket_equipment_2_short:0 "Grad"
+ SOV_motorized_rocket_equipment_2_short:0 "BM-21 Grad"
  SOV_motorized_rocket_equipment_3:0 "BM-27 Uragan"
- SOV_motorized_rocket_equipment_3_short:0 "Uragan"
+ SOV_motorized_rocket_equipment_3_short:0 "BM-27 Uragan"
  SOV_motorized_rocket_equipment_4:0 "BM-30 Smerch"
- SOV_motorized_rocket_equipment_4_short:0 "Smerch"
+ SOV_motorized_rocket_equipment_4_short:0 "BM-30 Smerch"
  SOV_motorized_rocket_equipment_5:0 "9K512 Uragan-1M"
- SOV_motorized_rocket_equipment_5_short:0 "Uragan-1M" 
+ SOV_motorized_rocket_equipment_5_short:0 "9K512 Uragan-1M" 
  
  SOV_atgm_equipment_0:0 "3M6 Shmel"
  SOV_atgm_equipment_0_short:0 "3M6 Shmel"
@@ -4594,7 +4594,6 @@
  FRA_sht_equipment_2:0 "FCM F1"
  FRA_sht_equipment_3:0 "ARL Char C"
 
- FRA_sht_equipment_2_short:0 "FCM F1"
  FRA_sht_equipment_3_short:0 "ARL Char C"
  
  JAP_sht_equipment_1:0 "O-I 100 Ton"
@@ -5633,7 +5632,7 @@
 
  DDR_infantry_equipment_0:0 "Karabiner 98K"
  DDR_infantry_equipment_0_short:0 "Karabiner 98K"
- DDR_infantry_equipment_0_desc:0 ""
+ DDR_infantry_equipment_0_desc:0 "An Iconic bolt-action rifle adopted by the Wehrmacht in 1935 as the standard service rifle. It was one of the final developments in the long line of Mauser military rifles. Although supplemented by semi- and fully automatic rifles during World War II, it remained the primary German service rifle until the end of the war in 1945. Despite the growing number of semi-automatic and fully automatic rifles, the Kar98k continues to see use in both sides of the Iron Curtain."
  
  DDR_infantry_equipment_1:0 "Awtomat Kalashnikova 1947"
  DDR_infantry_equipment_1_short:0 "MPI-AK-47"
@@ -6096,16 +6095,16 @@
  ZIM_infantry_equipment_4_short:0 "Vektor LM-5"
  ZIM_infantry_equipment_4_desc:0 ""
  
- WGR_infantry_equipment_0:0 "Karabiner 98k"
+ WGR_infantry_equipment_0:0 " Karabiner 98 kurz"
  WGR_infantry_equipment_0_short:0 "Karabiner 98k"
- WGR_infantry_equipment_0_desc:0 ""
+ WGR_infantry_equipment_0_desc:0 "An Iconic bolt-action rifle adopted by the Wehrmacht in 1935 as the standard service rifle. It was one of the final developments in the long line of Mauser military rifles. Although supplemented by semi- and fully automatic rifles during World War II, it remained the primary German service rifle until the end of the war in 1945. Despite the growing number of semi-automatic and fully automatic rifles, the Kar98k continues to see use in both sides of the Iron Curtain."
  
- WGR_infantry_equipment_1:0 "Heckler & Koch G3"
- WGR_infantry_equipment_1_short:0 "Heckler & Koch G3"
+ WGR_infantry_equipment_1:0 "Heckler & Koch G1"
+ WGR_infantry_equipment_1_short:0 "Heckler & Koch G1"
  WGR_infantry_equipment_1_desc:0 ""
  
- WGR_infantry_equipment_2:0 "Heckler & Koch HK33"
- WGR_infantry_equipment_2_short:0 "Heckler & Koch HK33"
+ WGR_infantry_equipment_2:0 "Heckler & Koch G3"
+ WGR_infantry_equipment_2_short:0 "Heckler & Koch G3"
  WGR_infantry_equipment_2_desc:0 ""
 
  WGR_infantry_equipment_3:0 "Heckler & Koch G41"
@@ -6115,3 +6114,36 @@
  WGR_infantry_equipment_4:0 "Heckler & Koch G36"
  WGR_infantry_equipment_4_short:0 "Heckler & Koch G36"
  WGR_infantry_equipment_4_desc:0 ""
+ 
+ ##GLORIOUS NIPPON STEEL FOLDED OVER 1000 TIMES
+ JAP_infantry_equipment_0:0 "Type 99 rifle Arisaka"
+ JAP_infantry_equipment_0_short:0 "Type 99"
+ JAP_infantry_equipment_0_desc:0 "Bolt Action rifle."
+ 
+ JAP_infantry_equipment_1:0 "M1 Garand"
+ JAP_infantry_equipment_1_short:0 "M1 Garand"
+ JAP_infantry_equipment_1_desc:0 ""
+ 
+ JAP_infantry_equipment_2:0 "Howa Type 64 Battle Rifle"
+ JAP_infantry_equipment_2_short:0 "Type 64"
+ JAP_infantry_equipment_2_desc:0 "The Howa Type 64 Battle Rifle (Roku-yon-shiki-jidou-shoujuu), is a Japanese battle rifle used exclusively by the Japan Self-Defense Forces and the Japanese Coast Guard. It is a gas-operated, selective fire weapon which is chambered for the 7.62×51mm NATO round and uses a detachable 20-round box magazine. The Type 64 was never exported due to Japan's strict anti-hardware export laws."
+
+ JAP_infantry_equipment_3:0 "Howa Type 80"
+ JAP_infantry_equipment_3_short:0 "Type 80"
+ JAP_infantry_equipment_3_desc:0 "Experimental prototype of the Armalite AR-180, the Type 80 was never issued outside of limited test use."
+ 
+ JAP_infantry_equipment_4:0 " Howa Type 89"
+ JAP_infantry_equipment_4_short:0 "Howa Type 89 "
+ JAP_infantry_equipment_4_desc:0 ""
+ 
+ JAP_specialist_1: "Type 99 sniper rifle"
+ JAP_specialist_1_short: "Type 99 sniper rifle"
+ JAP_specialist_1_desc: "The Type 99 sniper rifle (Kyūkyū-shiki sogeki-jū) was a Japanese sniper rifle used during the Second World War. It was a sniper version of the Type 99 rifle, chambered in the 7.7×58mm round. There were a few variations of the Type 99 sniper rifle, some with the straight bolt and the scope mounted on the left side of the receiver which allowed use of stripper clips. Another variation was one with a bent bolt and the scope above the receiver which required the sniper to load the rounds one at a time. The shorter barrel, combined with the larger caliber round made concealment more difficult than the Type 97 rifle that preceded it, considering the louder muzzle blast and flash caused by the increased powder capacity. "
+ JAP_specialist_2: "M1D"
+ JAP_specialist_2_short: "M1D"
+ JAP_specialist_2_desc: "The M1D is a sniper variant of the M1 Garand. Derived from the more complex M1C, The D-variant used utilized a simpler, single-ring Springfield Armory mount attached to the barrel rather than the receiver."
+ JAP_specialist_3: "Howa Type 64 Designated Marksman"
+ JAP_specialist_3_short: "Howa Type 64"
+ JAP_specialist_3_desc: "Long range optics (scopes) can be installed on the Type 64 rifle so it can be deployed as a sniper rifle. Issuing a Type 64 sniper rifle is usually granted to the individual with the most accurate shooting proficiency in each division (a designated marksman). However, in many cases the individual may simply be issued the scope by itself to be used only during training exercises and shooting competitions, while no specific rifle is assigned to the individual himself.\nThe issued optics are usually set at 2.2× magnification and may either be a surplus M1C/D sniper rifle M84 scope used by the U.S. Military during World War II or a similar model produced by Nikon that replicates the M84's magnification levels. Performance is similar to the M1C/D sniper rifle but it is only possible to set the scope to view targets at 500 meters despite the elevation knob being labeled for up to 800 meters. In addition to this, the standard aiming reticule is a simple black \"T\" which makes it extremely difficult to use during twilight hours or on a black target.\nSome serious complaints about the accuracy of the sniper version are linked to the poorly conceived attachment system for the scope. The scope goes askew easily because it is only affixed with one screw. After the scope is mounted and the rifle is zeroed, it is imperative that it be handled carefully because it is easily jostled. Furthermore, since the scope is not usually assigned to any particular rifle it is often difficult to keep it static on any particular rifle's receiver. This is usually corrected by installing a piece of cloth between the receiver and scope mount, but then the iron sights of the rifle are obscured. In cases like this, it is necessary to install a cheek pad to properly align the users eye with the scope."
+ JAP_specialist_5_short: "M24"
+ JAP_specialist_5_desc: ""

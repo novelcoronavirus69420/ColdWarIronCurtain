@@ -89,6 +89,74 @@ country_event = {
 		}
 		if = {
 			limit = {
+				tag = FIN
+			}
+			hidden_effect = {
+				FIN = {
+					set_country_flag = parliament_enabled
+					set_variable = { communism_seats_parliament = 0 }
+					set_variable = { socialist_seats_parliament = 20 }
+					set_variable = { Social_Democratic_seats_parliament = 26 }
+					set_variable = { democratic_seats_parliament = 0 }
+					set_variable = { Social_Liberalism_seats_parliament = 7 }
+					set_variable = { Liberal_Conservatism_seats_parliament = 0 }
+					set_variable = { conservative_seats_parliament = 42 }
+					set_variable = { islamism_seats_parliament = 0 }
+					set_variable = { monarchism_seats_parliament = 0 }
+					set_variable = { neutrality_seats_parliament = 2 }
+					set_variable = { nationalism_seats_parliament = 0 }
+					set_variable = { fascism_seats_parliament = 0 }
+					set_variable = { Christian_Democratic_seats_parliament = 0 }
+					set_variable = { centrist_seats_parliament = 24 }
+					set_variable = { liberal_seats_parliament = 4 }
+					set_variable = { trotskyism_seats_parliament = 0 }
+					set_variable = { maoism_seats_parliament = 0 }
+					set_variable = { radical_shiaism_seats_parliament = 0 }
+					set_variable = { Salafism_seats_parliament = 0 }	
+					
+					set_variable = { communism_seats_parliament2 = communism_seats_parliament }
+					set_variable = { socialist_seats_parliament2 = socialist_seats_parliament }
+					set_variable = { Social_Democratic_seats_parliament2 = Social_Democratic_seats_parliament }
+					set_variable = { democratic_seats_parliament2 = democratic_seats_parliament }
+					set_variable = { Social_Liberalism_seats_parliament2 = Social_Liberalism_seats_parliament }
+					set_variable = { Liberal_Conservatism_seats_parliament2 = Liberal_Conservatism_seats_parliament }
+					set_variable = { conservative_seats_parliament2 = conservative_seats_parliament }
+					set_variable = { islamism_seats_parliament2 = islamism_seats_parliament }
+					set_variable = { monarchism_seats_parliament2 = monarchism_seats_parliament }
+					set_variable = { neutrality_seats_parliament2 = neutrality_seats_parliament }
+					set_variable = { nationalism_seats_parliament2 = nationalism_seats_parliament }
+					set_variable = { fascism_seats_parliament2 = fascism_seats_parliament }
+					set_variable = { Christian_Democratic_seats_parliament2 = Christian_Democratic_seats_parliament }
+					set_variable = { centrist_seats_parliament2 = centrist_seats_parliament }
+					set_variable = { liberal_seats_parliament2 = liberal_seats_parliament }
+					set_variable = { trotskyism_seats_parliament2 = trotskyism_seats_parliament }
+					set_variable = { maoism_seats_parliament2 = maoism_seats_parliament }
+					set_variable = { radical_shiaism_seats_parliament2 = radical_shiaism_seats_parliament }
+					set_variable = { Salafism_seats_parliament2 = Salafism_seats_parliament }	
+					
+					set_parliament_graphics = yes		
+
+					set_variable = {
+						ROOT.GroupGFX = 200
+					}
+					divide_variable = { ROOT.GroupGFX = 100 }
+					multiply_variable = { ROOT.GroupGFX = 230 }
+					set_variable = {
+						ROOT.Coalition = 54
+					}
+					set_variable = {
+						ROOT.Opposition = 146
+					}
+					subtract_from_variable = {
+						ROOT.Opposition = ROOT.Coalition
+					}
+					
+							
+				}
+			}
+		}
+		if = {
+			limit = {
 				tag = IRE
 			}
 			IRE = {
@@ -571,10 +639,10 @@ country_event = {
 		}
 		option = {
 			name = "test2"
-			soviet_demographic_setup = yes
-			create_pie_chart_armenia = yes
-			create_pie_chart_ethnic_armenia = yes
-			create_pie_chart_religion_armenia = yes
+			#soviet_demographic_setup = yes
+			#create_pie_chart_armenia = yes
+			#create_pie_chart_ethnic_armenia = yes
+			#create_pie_chart_religion_armenia = yes
 			
 			distance_calculator = yes
 		}
@@ -605,6 +673,107 @@ news_event = {
 	
 	immediate = {
 		hidden_effect = {
+				CAN = {
+					682 = { 
+						add_province_modifier = {
+							static_modifiers = { Niagra_Falls }
+							province = {
+								id = 749 
+							}
+						}
+					}
+				}
+				BRA = {
+					502 = { 
+						add_province_modifier = {
+							static_modifiers = { iguazu_falls }
+							province = {
+								id = 5110 
+							}
+						}
+					}
+				}
+				ARG = {
+					824 = { 
+						add_province_modifier = {
+							static_modifiers = { iguazu_falls }
+							province = {
+								id = 11007 
+							}
+						}
+					}
+				}
+				TZN = {
+					546 = {
+						add_province_modifier = {
+							static_modifiers = { Kilimanjaro }
+							province = {
+								id = 5224
+							}
+						}					
+					}
+				}
+				LOS = {
+					1187 = { 
+						add_province_modifier = {
+							static_modifiers = { Khone_Phapheng_Falls }
+							province = {
+								id = 10453 
+							}
+						}
+					}
+				}
+				USA = {
+					358 = { 
+						add_province_modifier = {
+							static_modifiers = { Niagra_Falls }
+							province = {
+								id = 11654 
+							}
+						}
+					}
+					463 = {
+						add_province_modifier = {
+							static_modifiers = { a_cold_volcano }
+							province = {
+								id = 13090 id = 1135 id = 10679 id = 12661 id = 10694 id = 13090
+							}
+						}
+					}
+				}
+				ZAM = {
+					246 = {
+						add_province_modifier = {
+							static_modifiers = { Victoria_Falls }
+							province = {
+								id = 7872 
+							}
+						}
+					}
+				}
+				
+				ZIM = {
+					146 = {
+						add_province_modifier = {
+							static_modifiers = { Victoria_Falls }
+							province = {
+								id = 1874 
+							}
+						}
+					}
+				}
+				
+				NEP = {
+					323 = {
+						add_province_modifier = {
+							static_modifiers = { Mount_Everest }
+							province = {
+								id = 12892 
+							}
+						}
+					}
+				}
+			
 			every_country = {
 				limit = {
 					NOT = { has_country_flag = policy_setup }
@@ -625,6 +794,7 @@ news_event = {
 			}
 		}	
 	}
+
 
 	
 	option = {
@@ -665,6 +835,16 @@ country_event = {
 	immediate = {
 		gdp_calculation = yes 
 		authoriatiran_gfx_display_latam = yes
+	create_operative_leader = {
+		name = "Miles Copeland Jr."
+		GFX = GFX_portrait_Miles_Copeland
+		traits = { }
+		bypass_recruitment = yes
+		available_to_spy_master = yes
+		female = no
+		nationalities = { USA }
+	}
+	
 	}
 }
 country_event = {

@@ -4628,6 +4628,14 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/fin/Suomen_Kaapelitehdas.tga"
 	}
 	spriteType = {
+	    name = "GFX_idea_heroin"
+		texturefile = "gfx/interface/ideas/fin/heroin.tga"
+	}
+	spriteType = {
+	    name = "GFX_idea_kansainhuolto"
+		texturefile = "gfx/interface/ideas/fin/kansainhuolto.tga"
+	}
+	spriteType = {
 	    name = "GFX_idea_Valmet_Lentokoneteollisuus"
 		texturefile = "gfx/interface/ideas/fin/Valmet_Lentokoneteollisuus.tga"
 	}
@@ -4900,30 +4908,6 @@ spriteTypes = {
 		name = "GFX_idea_power_grid1"
 		texturefile = "gfx/interface/ideas/worst_power.dds"
 	}
-	spriteType = {
-		name = "GFX_defcon_button1"
-		texturefile = "gfx/interface/defcon/button1.dds"
-	}	
-	spriteType = {
-		name = "GFX_defcon_button2"
-		texturefile = "gfx/interface/defcon/button2.dds"
-	}	
-	spriteType = {
-		name = "GFX_defcon_button3"
-		texturefile = "gfx/interface/defcon/button3.dds"
-	}	
-	spriteType = {
-		name = "GFX_defcon_button4"
-		texturefile = "gfx/interface/defcon/button4.dds"
-	}	
-	spriteType = {
-		name = "GFX_defcon_button5"
-		texturefile = "gfx/interface/defcon/button5.dds"
-	}	
-	spriteType = {
-		name = "GFX_defcon_window"
-		texturefile = "gfx/interface/defcon/window.dds"
-	}
 	
 	spriteType = { 
 		name = "GFX_idea_disarmed_nation_nuke"
@@ -5061,6 +5045,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_Dean_Acheson"
 		texturefile = "gfx/interface/ideas/usa/Dean_Acheson.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Clark_Clifford"
+		texturefile = "gfx/interface/ideas/usa/Clark_Clifford.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_John_Snyder"

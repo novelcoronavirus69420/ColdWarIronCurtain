@@ -21,6 +21,12 @@ on_actions = {
 			100 = usa.20163
 		}
 		random_events = {
+			100 = Canada_Elections.1
+			100 = Canada_Elections.2
+			100 = Canada_Elections.3
+			100 = Canada_Elections.4
+		}
+		random_events = {
 			100 = cw_saf.20
 			100 = cw_saf.1
 		}
@@ -318,19 +324,6 @@ on_actions = {
 					FROM = { TAG = KOR }
 					ROOT = { TAG = KPA }
 				}
-				FROM = { country_event = { id = mal.1 days = 0 } }
-			}
-		}
-	}
-	on_capitulation = {
-		effect = {
-			news_event = { id = country_capitulated.0 days = 0 }
-			
-			if = {
-				limit = {
-					FROM = { TAG = KOR }
-					ROOT = { TAG = KPA }
-				}
 				KOR = { country_event = { id = korean_surrender.1 days = 0 } }
 				PRC = { country_event = { id = korean_surrender.2 days = 0 } }
 			}
@@ -490,6 +483,12 @@ on_actions = {
 				army_experience = 50
 				navy_experience = 50
 			}
+			random_country = {
+				add_to_array = { global.sd_array = 1 }
+				add_to_array = { global.sd_array = 2 }
+				add_to_array = { global.sd_array = 3 }
+			}
+
 			every_country = {
 				if = {
 					limit = {

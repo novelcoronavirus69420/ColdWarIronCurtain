@@ -4,7 +4,6 @@ ic_pulse = {
 	set_variable = { oil_consumption_total_desired = 0 }
 	monthly_power_projection_gain = yes
 	monthly_set_fpp = yes
-	gdp_calculation = yes
 	
 	clamp_variable = {
 		var = foriegnPowerProjection
@@ -1066,6 +1065,7 @@ ic_pulse = {
 				date > 1967.06.12
 				date < 1967.07.12
 			}
+			set_country_flag = NNE_1
 		country_event = NNE.1
 	 }
 	if = {
@@ -1075,6 +1075,7 @@ ic_pulse = {
 				date > 1973.01.22
 				date < 1973.02.22
 			}
+			set_country_flag = NNE_2
 		country_event = NNE.2
 	 }
 	if = {
@@ -1084,6 +1085,7 @@ ic_pulse = {
 				date > 1973.05.01
 				date < 1973.06.01
 			}
+			set_country_flag = NNE_3
 		country_event = NNE.3
 	 }
 	if = {
@@ -1093,6 +1095,7 @@ ic_pulse = {
 				date > 1977.06.09
 				date < 1977.07.09
 			}
+			set_country_flag = NNE_4
 		country_event = NNE.4
 	 }
 	if = {
@@ -1102,6 +1105,7 @@ ic_pulse = {
 				date > 1992.06.29
 				date < 1992.07.29
 			}
+			set_country_flag = NNE_5
 		country_event = NNE.5
 	 }
 	if = {
@@ -1111,6 +1115,7 @@ ic_pulse = {
 				date > 1963.06.17
 				date < 1963.07.17
 			}
+			set_country_flag = NNE_6
 		country_event = NNE.6
 	 }
 	if = {
@@ -1120,6 +1125,7 @@ ic_pulse = {
 				date > 1963.05.01
 				date < 1963.06.01
 			}
+			set_country_flag = NNE_7
 		country_event = NNE.7
 	 }
 	if = {
@@ -1129,6 +1135,7 @@ ic_pulse = {
 				date > 1950.09.01
 				date < 1950.10.01
 			}
+			set_country_flag = NNE_8
 		country_event = NNE.8
 	 }
 	if = {
@@ -1138,6 +1145,7 @@ ic_pulse = {
 				date > 1950.11.17
 				date < 1950.12.17
 			}
+			set_country_flag = NNE_9
 		country_event = NNE.9
 	 }
 	if = {
@@ -1147,6 +1155,7 @@ ic_pulse = {
 				date > 1950.01.21
 				date < 1950.02.21
 			}
+			set_country_flag = NNE_10
 		country_event = NNE.10
 	 }
 	if = {
@@ -1156,6 +1165,7 @@ ic_pulse = {
 				date > 1950.01.05
 				date < 1950.02.05
 			}
+		set_country_flag = NNE_11
 		country_event = NNE.11
 	 }
 	if = {
@@ -1165,6 +1175,7 @@ ic_pulse = {
 				date > 1950.08.15
 				date < 1950.09.15
 			}
+			set_country_flag = NNE_13
 		country_event = NNE.13
 	 }
 	if = {
@@ -1174,6 +1185,7 @@ ic_pulse = {
 				date > 1950.08.12
 				date < 1950.09.12
 			}
+			set_country_flag = NNE_14
 		country_event = NNE.14
 	 }
 	if = {
@@ -1183,6 +1195,7 @@ ic_pulse = {
 				date > 1950.10.01
 				date < 1950.11.01
 			}
+			set_country_flag = NNE_15
 		country_event = NNE.15
 	 }
 	if = {
@@ -1192,6 +1205,7 @@ ic_pulse = {
 				date > 1951.01.01
 				date < 1951.02.01
 			}
+			set_country_flag = NNE_16
 		country_event = NNE.16
 	 }
 	 if = {
@@ -1221,6 +1235,7 @@ ic_pulse = {
 				date > 1951.03.21
 				date < 1951.04.21
 			}
+			set_country_flag = NNE_17
 		country_event = NNE.17
 	 }
 	if = {
@@ -1230,6 +1245,7 @@ ic_pulse = {
 				date > 1951.06.04
 				date < 1951.07.04
 			}
+			set_country_flag = NNE_18
 		country_event = NNE.18
 	 }
 	if = {
@@ -1239,6 +1255,7 @@ ic_pulse = {
 				date > 1951.07.20
 				date < 1951.08.20
 			}
+		set_country_flag = NNE_19
 		country_event = NNE.19
 	 }
 	if = {
@@ -1248,6 +1265,7 @@ ic_pulse = {
 				date > 1951.10.03
 				date < 1951.11.03
 			}
+		set_country_flag = NNE_20
 		country_event = NNE.20
 	 }
 	if = {
@@ -1266,6 +1284,7 @@ ic_pulse = {
 				date > 1952.03.22
 				date < 1952.04.22
 			}
+			set_country_flag = NNE_22
 		country_event = NNE.22
 	 }
 	if = {
@@ -1275,6 +1294,7 @@ ic_pulse = {
 				date > 1952.06.02
 				date < 1952.07.02
 			}
+			set_country_flag = NNE_24
 		country_event = NNE.24
 	 }
 	if = {
@@ -1284,6 +1304,7 @@ ic_pulse = {
 				date > 1952.07.21
 				date < 1952.08.21
 			}
+			set_country_flag = NNE_26
 		country_event = NNE.26
 	 }
 	if = {
@@ -1302,6 +1323,7 @@ ic_pulse = {
 				date > 1952.08.12
 				date < 1952.09.12
 			}
+			set_country_flag = NNE_28
 		country_event = NNE.28
 	 }
 	if = {
@@ -1311,6 +1333,7 @@ ic_pulse = {
 				date > 1953.03.26
 				date < 1953.04.26
 			}
+			set_country_flag = NNE_29
 		country_event = NNE.29
 	 }
 	if = {
@@ -1320,6 +1343,7 @@ ic_pulse = {
 				date > 1953.04.10
 				date < 1953.05.10
 			}
+			set_country_flag = NNE_30
 		country_event = NNE.30
 	 }
 	if = {
@@ -1406,10 +1430,13 @@ ic_pulse = {
 			tag = FRA
 			date > 1958.04.01
 			date < 1959.01.01
-			has_completed_focus = FRA_Guy_Mollet
+			OR = {
+				has_completed_focus = FRA_RPF_1953
+				has_completed_focus = FRA_CNIP_1953
+			}
 		}
 		country_event = fra_crisis.2
-	}		
+	}	
 	
 	#if = {
 	#	limit = {
@@ -1516,6 +1543,7 @@ ic_pulse = {
 					NOT = { tag = LBA }
 					NOT = { tag = KEN }
 					NOT = { tag = ETH }
+					NOT = { tag = WGR }
 				}
 				load_focus_tree = generic_focus_60
 				set_country_flag = focus_tree_60_reset
@@ -1564,6 +1592,7 @@ ic_pulse = {
 						tag = LBA
 						tag = KEN
 						tag = ETH
+						tag = WGR
 					}
 				}
 				set_country_flag = focus_tree_60_reset		
@@ -1615,6 +1644,12 @@ ic_pulse = {
 						tag = EGY
 					}
 					load_focus_tree = UAR_60s
+				}
+				if = {
+					limit = {
+						tag = WGR
+					}
+					load_focus_tree = WGR_60s
 				}
 				if = {
 					limit = {
@@ -2327,6 +2362,22 @@ ic_pulse = {
 			if = {
 				limit = {
 					tag = FRA
+					date > 1967.06.01
+					date < 1968.01.01
+				}
+				country_event = french_elections.15
+			}
+			if = {
+				limit = {
+					tag = FRA
+					date > 1956.06.01
+					date < 1957.01.01
+				}
+				country_event = french_elections.18
+			}
+			if = {
+				limit = {
+					tag = FRA
 					date > 1968.04.28
 					date < 1968.05.02
 					has_completed_focus = FRA_60s_Re_Elect_De_Galle
@@ -2765,16 +2816,22 @@ ic_pulse = {
 			if = {
 				limit = {
 					tag = FRA
-					date > 1954.11.01
+					date > 1954.10.01
 					date < 1955.01.01
-					NOT = {
-						OR = {
-							country_exists = ALG
-							has_war_with = ALG
-						}
-					}
+					NOT = { has_country_flag = ALGERIA_WAR_START }
 				}
-				country_event = algeria.1001
+				set_country_flag = ALGERIA_WAR_START
+				news_event = FLN_insurgency_options.0
+			}		
+			if = {
+				limit = {
+					tag = CMR
+					date > 1955.05.01
+					date < 1956.01.01
+					NOT = { has_country_flag = BAMILEKE_WAR_START }
+				}
+				set_country_flag = BAMILEKE_WAR_START
+				news_event = UPC_insurgency_options.0
 			}		
 			if = {
 				limit = {
@@ -5615,6 +5672,14 @@ ic_pulse = {
 	}
 	if = {
 		limit = {
+			tag = WGR
+			date > 1967.04.01
+			date < 1967.05.01
+		}
+		country_event = wgr.17
+	}
+	if = {
+		limit = {
 			original_tag = ENG
 			date > 1961.12.08
 			date < 1962.03.01
@@ -6405,4 +6470,18 @@ ic_pulse = {
 		}
 		country_event = { id = suezcrisis.7  days = 0 }
 	}
+#1964 Arab League Summit
+#1973 Arab-Israeli War
+	if = {
+		limit = {
+			original_tag = EGY
+			country_exists = EGY
+			country_exists = SYR
+			country_exists = ISR
+            date > 1973.10.6
+            date < 1973.10.31
+        }
+        country_event = { id = EGY_1973.1  days = 1 }
+    }
+	
 }

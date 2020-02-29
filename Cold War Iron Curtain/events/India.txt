@@ -1,4 +1,6 @@
 ﻿add_namespace = india
+add_namespace = karachi
+add_namespace = Tripura
 
 #The Republic of India
 country_event = {
@@ -25,26 +27,92 @@ country_event = {
 	}
 }
 
+country_event = {
+	id = karachi.1
+	title = karachi.1.t
+	desc = karachi.1.d
+	picture = GFX_Karachi
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = "Very Good"
+	}
+}
+
+country_event = {
+	id = Tripura.1
+	title = Tripura.1.t
+	desc = Tripura.1.d
+	picture = GFX_tripura
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = Tripura.1.a
+	}
+}
+
+country_event = {
+	id = india.50
+	title = india.50.t
+	desc = india.50.d
+	picture = GFX_Nathuram_Godse
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = india.50.a
+		news_event = india.51
+	}
+}
+
+news_event = {
+	id = india.51
+	title = india.51.t
+	desc = india.51.d
+	picture = GFX_Nathuram_Godse2
+	major = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = india.51.a
+	}
+}
+
+country_event = {
+	id = india.52
+	title = india.52.t
+	desc = india.52.d
+	picture = GFX_delhi_pact
+	is_triggered_only = yes
+	
+	option = {
+		name = india.52.a
+	}
+}
+
 #The Republic of India - News
-#news_event = {
-	#id = india.2
-	#title = "The Republic of India"
-	#desc = "After the adoption of the Constitution of India by the Constituent Assembly of India in November 1949, this moment was waited for by millions of Indians. The Constitution has today taken effect and India is now a sovereign, socialist, secular, democratic republic. The Dominion is no more."
+news_event = {
+	id = india.2
+	title = "[GetNewspaperHeader]Decleration of Republic of India"
+	desc = india.2.d
+	picture = GFX_india_declared
 	
-	#is_triggered_only = yes
-	#major = yes
+	is_triggered_only = yes
+	major = yes
 	
-	#option = {
-		#name = india.2.a
-		#trigger = {
-			#NOT = { original_tag = RAJ }
-		#}
-	#}
+	option = {
+		name = india.2.a
+		trigger = {
+			original_tag = RAJ
+		}
+	}
 	
-	#option = {
-		#name = india.2.b
-		#trigger = {
-			#NOT = { original_tag = RAJ }
-		#}
-	#}
-#}
+	option = {
+		name = india.2.b
+		trigger = {
+			NOT = { original_tag = RAJ }
+		}
+	}
+}

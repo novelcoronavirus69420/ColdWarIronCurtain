@@ -7,15 +7,17 @@ buildings = {
 
 #####INFRASTRUCTURE#####
 	infrastructure = {
-		base_cost = 7000
+		base_cost = 6000
+		per_level_extra_cost = 500
 		icon_frame = 2
 		infrastructure = yes
 		max_level = 10
 		damage_factor = 0.7
-		value = 5
+		value = 3
 	}
 	state_infrastructure = {
 		base_cost = 4000
+		per_level_extra_cost = 1000
 		icon_frame = 3
 		infrastructure = yes
 		max_level = 8
@@ -60,7 +62,7 @@ buildings = {
 	office_park = {
 		show_on_map = 0
 		base_cost = 25000
-		icon_frame = 10
+		icon_frame = 23
 		max_level = 50
 		shares_slots = yes
 		damage_factor = 2
@@ -71,6 +73,7 @@ buildings = {
 	
 	water_infrastructure = {
 		base_cost = 10000
+		per_level_extra_cost = 2000
 		icon_frame = 1
 		infrastructure = yes
 		max_level = 12 # This is the max unlock level
@@ -80,7 +83,7 @@ buildings = {
 	}
 	agri_industrial_complex = {
 		base_cost = 10000
-		icon_frame = 11
+		icon_frame = 24
 		infrastructure = yes
 		max_level = 50 # This is the max unlock level
 		local_resources_rubber = 1

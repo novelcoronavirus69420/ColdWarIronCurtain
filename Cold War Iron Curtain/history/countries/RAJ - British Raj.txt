@@ -168,7 +168,6 @@ set_technology = {
 
 set_stability = 0.5
 add_ideas = {
-	population_growth_explosion
 	idea_RAJ_Ehtos_Independence
 	feudal_politics
 	corruption5
@@ -264,6 +263,26 @@ create_country_leader = {
 	picture = "Jawaharlal_Nehru.dds"
 	desc = "POLITICS_DESC_NEHRU"
 	ideology = social_democrat
+ }
+ create_country_leader = {
+	name = "Chakravarti Rajagopalachari"
+	picture = "Chakravarti_Rajagopalachari.dds"
+	ideology = libertarianism
+ }
+ create_country_leader = {
+	name = "A. K. Gopalan"
+	picture = "Gopalan.dds"
+	ideology = marxism_leninism
+ }
+ create_country_leader = {
+	name = "Muhammad Ismail"
+	picture = "Muhammad_Ismail.dds"
+	ideology = democratic_islamism
+ }
+ create_country_leader = {
+	name = "Jayaprakash Narayan"
+	picture = "Jayaprakash_Narayan.dds"
+	ideology = democratic_socialist
  }
 }
 
@@ -531,6 +550,16 @@ create_field_marshal = {
 	attack_skill = 5
 	defense_skill = 4
 	planning_skill = 5
+	logistics_skill = 3
+}
+create_field_marshal = {
+	name = "Kodandera Madappa Cariappa"
+	picture = "Cariappa.dds"
+	traits = {  }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 3
 	logistics_skill = 3
 }
 create_corps_commander = {

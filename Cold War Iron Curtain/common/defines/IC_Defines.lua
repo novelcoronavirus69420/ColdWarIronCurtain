@@ -22,7 +22,7 @@ NDefines.NAir.NAVAL_STRIKE_DAMAGE_TO_STR = 2 -- Balancing value to convert damag
 NDefines.NAir.MISSION_COMMAND_POWER_COSTS = {  0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 }
 NDefines.NAir.CAS_NIGHT_ATTACK_FACTOR = 0.5 -- Balancing value to convert damage ( naval_strike_attack * hits ) to Strength reduction.
 
-NDefines.NBuildings.AIRBASE_CAPACITY_MULT = 40 -- Each level of airbase building multiplied by this, gives capacity (max operational value). Value is int. 1 for each airplane.
+NDefines.NBuildings.AIRBASE_CAPACITY_MULT = 50 -- Each level of airbase building multiplied by this, gives capacity (max operational value). Value is int. 1 for each airplane.
 NDefines.NBuildings.ANTI_AIR_SUPERIORITY_MULT = 100.0 -- How much air superiority reduction to the enemy does our AA guns? Normally each building level = -1 reduction. With this multiplier.
 NDefines.NBuildings.INFRASTRUCTURE_RESOURCE_BONUS= 0.0
 NDefines.NBuildings.MAX_BUILDING_LEVELS = 200
@@ -68,6 +68,8 @@ NDefines.NDiplomacy.VOLUNTEERS_DIVISIONS_REQUIRED = 1 -- This many divisons are 
 NDefines.NDiplomacy.VOLUNTEERS_PER_COUNTRY_ARMY = 0.10 -- Each army unit owned by the source country contributes this amount of volunteers to the limit.
 NDefines.NDiplomacy.VOLUNTEERS_PER_TARGET_PROVINCE = 0.10 -- Each province owned by the target country contributes this amount of volunteers to the limit.
 
+NDefines.NDiplomacy.VOLUNTEERS_TRANSFER_SPEED = 7
+
 NDefines.NGame.END_DATE = "2050.5.23.12"
 NDefines.NGame.START_DATE = "1945.5.23.12"
 
@@ -75,10 +77,8 @@ NDefines.NMilitary.MAX_DIVISION_SUPPORT_WIDTH = 2 -- Max width of support in div
 NDefines.NMilitary.MAX_ARMY_EXPERIENCE = 9999999;
 NDefines.NMilitary.MAX_NAVY_EXPERIENCE = 9999999;
 NDefines.NMilitary.MAX_AIR_EXPERIENCE = 9999999;
-NDefines.NMilitary.CORPS_COMMANDER_DIVISIONS_CAP = 36
 NDefines.NMilitary.CORPS_COMMANDER_ARMIES_CAP = -1
 NDefines.NMilitary.FIELD_MARSHAL_DIVISIONS_CAP = 0
-NDefines.NMilitary.FIELD_MARSHAL_ARMIES_CAP = 8
 NDefines.NMilitary.BASE_CAPTURE_EQUIPMENT_RATIO = 0.05
 NDefines.NMilitary.BASE_DIVISION_BRIGADE_GROUP_COST = 3 	--Base cost to unlock a regiment slot,
 NDefines.NMilitary.BASE_DIVISION_BRIGADE_CHANGE_COST = 3	--Base cost to change a regiment column.
@@ -116,7 +116,7 @@ NDefines.NAI.MAX_AHEAD_RESEARCH_PENALTY = 2
 NDefines.NAI.RESEARCH_AHEAD_OF_TIME_FACTOR = 9999999
 
 NDefines.NProduction.MAX_EQUIPMENT_RESOURCES_NEED = 4
-NDefines.NProduction.INFRA_MAX_CONSTRUCTION_COST_EFFECT = 1.4
+NDefines.NProduction.INFRA_MAX_CONSTRUCTION_COST_EFFECT = 0.7
 NDefines.NProduction.EQUIPMENT_MODULE_ADD_XP_COST = 2.0
 NDefines.NProduction.EQUIPMENT_MODULE_REPLACE_XP_COST = 2.0
 NDefines.NProduction.EQUIPMENT_MODULE_CONVERT_XP_COST = 2.0

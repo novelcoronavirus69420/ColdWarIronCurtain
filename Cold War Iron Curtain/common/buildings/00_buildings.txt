@@ -3,7 +3,8 @@ buildings = {
 	nuclear_bunker = {
 		show_on_map = 0
 		has_destroyed_mesh = yes
-		base_cost = 3000
+		base_cost = 2000
+		per_level_extra_cost = 1000
 		icon_frame = 11
 		max_level = 4
 		shares_slots = no
@@ -14,11 +15,12 @@ buildings = {
 	air_base = {
 		show_on_map = 1
 		base_cost = 1750
+		per_level_extra_cost = 250
 		icon_frame = 12
 		air_base = yes
-		max_level = 15
+		max_level = 10
 		damage_factor = 0.5
-		value = 1
+		value = 2
 		infrastructure_construction_effect = yes
 	}
 
@@ -41,11 +43,12 @@ buildings = {
 		show_on_map = 1
 		has_destroyed_mesh = yes
 		base_cost = 1375
+		per_level_extra_cost = 500
 		provincial = yes
 		disabled_in_dmz = yes
 		icon_frame = 21
 		land_fort = 1
-		max_level = 10
+		max_level = 4
 		value = 1
 	}
 
@@ -53,12 +56,13 @@ buildings = {
 		show_on_map = 1
 		has_destroyed_mesh = yes
 		base_cost = 1375
+		per_level_extra_cost = 500
 		provincial = yes
 		disabled_in_dmz = yes
 		only_costal = yes
 		icon_frame = 22
 		naval_fort = 1
-		max_level = 10
+		max_level = 4
 		value = 1
 	}
 
@@ -78,7 +82,8 @@ buildings = {
 
 	radar_station = {
 		show_on_map = 1
-		base_cost = 3375
+		base_cost = 2500
+		per_level_extra_cost = 500
 		icon_frame = 14
 		radar = yes
 		#max_level = 0 # max: 5

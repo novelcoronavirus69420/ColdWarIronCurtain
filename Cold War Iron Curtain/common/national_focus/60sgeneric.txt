@@ -11,6 +11,7 @@ focus_tree = {
 	focus = {
 		id = gen60_army_academy
 		icon = GFX_mass_conscription
+		search_filters = {IC_FILTER}
 		cost = 8.00
 		x = 5
 		y = 0
@@ -24,6 +25,7 @@ focus_tree = {
 	focus = {
 		id = gen60_airforce_academy
 		icon = GFX_dassaultf1
+		search_filters = {IC_FILTER}
 		cost = 8.00
 		x = 13
 		y = 0
@@ -37,6 +39,7 @@ focus_tree = {
 	focus = {
 		id = gen60_naval_academy
 		icon = GFX_goal_generic_navy_doctrines_tactics
+		search_filters = {IC_FILTER}
 		cost = 8.00
 		x = 19
 		y = 0
@@ -50,6 +53,7 @@ focus_tree = {
 	focus = {
 		id = gen60_social_question
 		icon = GFX_goal_unknown
+		search_filters = {IC_FILTER}
 		cost = 1.00
 		x = 34
 		y = 0
@@ -63,6 +67,7 @@ focus_tree = {
 	focus = {
 		id = gen60_nat_tv
 		icon = GFX_tv
+		search_filters = {IC_FILTER}
 		cost = 16.00
 		x = 47
 		y = 0
@@ -76,6 +81,7 @@ focus_tree = {
 	focus = {
 		id = gen60_space_race
 		icon = GFX_spacerace
+		search_filters = {IC_FILTER}
 		cost = 14.00
 		x = 19
 		y = 8
@@ -92,6 +98,7 @@ focus_tree = {
 	focus = {
 		id = gen60_late_socialist
 		icon = GFX_CommunistPride
+		search_filters = {IC_FILTER}
 		cost = 20.00
 		mutually_exclusive = {
 			focus = gen60_late_centrist
@@ -111,6 +118,7 @@ focus_tree = {
 	focus = {
 		id = gen60_late_centrist
 		icon = GFX_Status
+		search_filters = {IC_FILTER}
 		cost = 20.00
 		mutually_exclusive = {
 			focus = gen60_late_capitalist
@@ -130,6 +138,7 @@ focus_tree = {
 	focus = {
 		id = gen60_late_capitalist
 		icon = GFX_StolenPapers
+		search_filters = {IC_FILTER}
 		cost = 20.00
 		mutually_exclusive = {
 			focus = gen60_late_centrist
@@ -149,6 +158,7 @@ focus_tree = {
 	focus = {
 		id = gen60_new_officers
 		icon = GFX_black_military
+		search_filters = {IC_FILTER}
 		cost = 8.00
 		prerequisite = {
 			focus = gen60_army_academy
@@ -173,6 +183,7 @@ focus_tree = {
 	focus = {
 		id = gen60_special_forces_corps
 		icon = GFX_goal_generic_special_forces
+		search_filters = {IC_FILTER}
 		cost = 8.00
 		prerequisite = {
 			focus = gen60_new_officers
@@ -192,6 +203,7 @@ focus_tree = {
 	focus = {
 		id = gen60_deep_wire_officers
 		icon = GFX_mountain_troops
+		search_filters = {IC_FILTER}
 		cost = 8.00
 		prerequisite = {
 			focus = gen60_special_forces_corps
@@ -211,6 +223,7 @@ focus_tree = {
 	focus = {
 		id = gen60_wmd_dev
 		icon = GFX_BurningGlobe
+		search_filters = {IC_FILTER}
 		cost = 8.00
 		prerequisite = {
 			focus = gen60_new_officers
@@ -227,7 +240,7 @@ focus_tree = {
 							name = wmd_program
 							bonus = 0.35
 							uses = 2
-							category = chemical_weapon
+							category = nbc
 						}
 					army_experience = 10
 				}
@@ -236,6 +249,7 @@ focus_tree = {
 	focus = {
 		id = gen60_airmobile_army
 		icon = GFX_focus_generic_paratrooper
+		search_filters = {IC_FILTER}
 		cost = 8.00
 		prerequisite = {
 			focus = gen60_new_officers
@@ -252,6 +266,7 @@ focus_tree = {
 	focus = {
 		id = gen60_research_helicopters
 		icon = GFX_Helicoptor_Production_Silver
+		search_filters = {IC_FILTER}
 		cost = 8.00
 		prerequisite = {
 			focus = gen60_airmobile_army
@@ -273,6 +288,7 @@ focus_tree = {
 	focus = {
 		id = gen60_finalize_army_academy
 		icon = GFX_TheBigPush
+		search_filters = {IC_FILTER}
 		cost = 8.00
 		prerequisite = {
 			focus = gen60_research_helicopters
@@ -294,6 +310,7 @@ focus_tree = {
 	focus = {
 		id = gen60_side_with_old_guard
 		icon = GFX_Army_Officers_Coup_Attempt
+		search_filters = {IC_FILTER}
 		cost = 8.00
 		prerequisite = {
 			focus = gen60_army_academy
@@ -318,6 +335,7 @@ focus_tree = {
 	focus = {
 		id = gen60_ground_army
 		icon = GFX_focus_generic_combined_arms
+		search_filters = {IC_FILTER}
 		cost = 8.00
 		prerequisite = {
 			focus = gen60_side_with_old_guard
@@ -334,6 +352,7 @@ focus_tree = {
 	focus = {
 		id = gen60_mech_research
 		icon = GFX_goal_continuous_armor_production
+		search_filters = {IC_FILTER}
 		cost = 8.00
 		prerequisite = {
 			focus = gen60_ground_army
@@ -355,6 +374,7 @@ focus_tree = {
 	focus = {
 		id = gen60_conventional_missiles_1
 		icon = GFX_TheMoon
+		search_filters = {IC_FILTER}
 		cost = 8.00
 		prerequisite = {
 			focus = gen60_side_with_old_guard
@@ -380,6 +400,7 @@ focus_tree = {
 	focus = {
 		id = gen60_support_corps
 		icon = GFX_RubberExpansion
+		search_filters = {IC_FILTER}
 		cost = 8.00
 		prerequisite = {
 			focus = gen60_side_with_old_guard
@@ -398,6 +419,7 @@ focus_tree = {
 	focus = {
 		id = gen60_warrant_officer_comission
 		icon = GFX_focus_generic_treaty
+		search_filters = {IC_FILTER}
 		cost = 8.00
 		prerequisite = {
 			focus = gen60_support_corps
@@ -417,6 +439,7 @@ focus_tree = {
 	focus = {
 		id = gen60_finalize_old_guard_academy
 		icon = GFX_FocusM16s
+		search_filters = {IC_FILTER}
 		cost = 8.00
 		prerequisite = {
 			focus = gen60_mech_research
@@ -438,6 +461,7 @@ focus_tree = {
 	focus = {
 		id = gen60_new_traditions
 		icon = GFX_microphone
+		search_filters = {IC_FILTER}
 		cost = 8.00
 		prerequisite = {
 			focus = gen60_finalize_army_academy
@@ -463,6 +487,7 @@ focus_tree = {
 	focus = {
 		id = gen60_light_armor_research
 		icon = GFX_focus_generic_army_tanks2
+		search_filters = {IC_FILTER}
 		cost = 8.00
 		prerequisite = {
 			focus = gen60_new_traditions
@@ -484,6 +509,7 @@ focus_tree = {
 	focus = {
 		id = gen60_old_traditions
 		icon = GFX_LessonsfromtheGreatWar
+		search_filters = {IC_FILTER}
 		cost = 8.00
 		prerequisite = {
 			focus = gen60_finalize_army_academy
@@ -509,6 +535,7 @@ focus_tree = {
 	focus = {
 		id = gen60_art_of_hillary_clinton
 		icon = GFX_goal_generic_army_artillery2
+		search_filters = {IC_FILTER}
 		cost = 8.00
 		prerequisite = {
 			focus = gen60_old_traditions
@@ -530,6 +557,7 @@ focus_tree = {
 	focus = {
 		id = gen60_asup_0
 		icon = GFX_FocusF84
+		search_filters = {IC_FILTER}
 		cost = 8.00
 		prerequisite = {
 			focus = gen60_airforce_academy
@@ -552,6 +580,7 @@ focus_tree = {
 	focus = {
 		id = gen60_asup_1
 		icon = GFX_focus_chi_flying_tigers
+		search_filters = {IC_FILTER}
 		cost = 8.00
 		prerequisite = {
 			focus = gen60_asup_0
@@ -571,6 +600,7 @@ focus_tree = {
 	focus = {
 		id = gen60_asup_2
 		icon = GFX_goal_poland_goal
+		search_filters = {IC_FILTER}
 		cost = 8.00
 		prerequisite = {
 			focus = gen60_asup_1
@@ -590,6 +620,7 @@ focus_tree = {
 	focus = {
 		id = gen60_asup_3
 		icon = GFX_Freedom2
+		search_filters = {IC_FILTER}
 		cost = 8.00
 		prerequisite = {
 			focus = gen60_asup_2
@@ -609,6 +640,7 @@ focus_tree = {
 	focus = {
 		id = gen60_asuper_0
 		icon = GFX_DresdenDecimator
+		search_filters = {IC_FILTER}
 		cost = 8.00
 		prerequisite = {
 			focus = gen60_airforce_academy
@@ -631,6 +663,7 @@ focus_tree = {
 	focus = {
 		id = gen60_asuper_1
 		icon = GFX_Aerial_Fleet
+		search_filters = {IC_FILTER}
 		cost = 8.00
 		prerequisite = {
 			focus = gen60_asuper_0
@@ -650,6 +683,7 @@ focus_tree = {
 	focus = {
 		id = gen60_asuper_2
 		icon = GFX_goal_generic_occupy_start_war
+		search_filters = {IC_FILTER}
 		cost = 8.00
 		prerequisite = {
 			focus = gen60_asuper_1
@@ -669,6 +703,7 @@ focus_tree = {
 	focus = {
 		id = gen60_asuper_3
 		icon = GFX_Goal_generic_navy_battleshipTwo
+		search_filters = {IC_FILTER}
 		cost = 8.00
 		prerequisite = {
 			focus = gen60_asuper_2
@@ -688,6 +723,7 @@ focus_tree = {
 	focus = {
 		id = gen60_air_doctrine_up
 		icon = GFX_goal_estoniaapplyingfornordic
+		search_filters = {IC_FILTER}
 		cost = 8.00
 		prerequisite = {
 			focus = gen60_asup_3
@@ -710,6 +746,7 @@ focus_tree = {
 	focus = {
 		id = gen60_navy_adventure
 		icon = GFX_IntotheFlames
+		search_filters = {IC_FILTER}
 		cost = 8.00
 		prerequisite = {
 			focus = gen60_naval_academy
@@ -732,6 +769,7 @@ focus_tree = {
 	focus = {
 		id = gen60_naval_fuel_efficiency
 		icon = GFX_oil
+		search_filters = {IC_FILTER}
 		cost = 8.00
 		prerequisite = {
 			focus = gen60_navy_adventure
@@ -751,6 +789,7 @@ focus_tree = {
 	focus = {
 		id = gen60_navy_aa
 		icon = GFX_focus_generic_air_defense
+		search_filters = {IC_FILTER}
 		cost = 8.00
 		prerequisite = {
 			focus = gen60_navy_adventure
@@ -767,6 +806,7 @@ focus_tree = {
 	focus = {
 		id = gen60_navy_living_conditions
 		icon = GFX_beefoil
+		search_filters = {IC_FILTER}
 		cost = 8.00
 		prerequisite = {
 			focus = gen60_navy_aa
@@ -790,6 +830,7 @@ focus_tree = {
 	focus = {
 		id = gen60_hardy_semen
 		icon = GFX_focus_generic_little_entente
+		search_filters = {IC_FILTER}
 		cost = 8.00
 		prerequisite = {
 			focus = gen60_naval_academy
@@ -812,6 +853,7 @@ focus_tree = {
 	focus = {
 		id = gen60_naval_research
 		icon = GFX_StatusoftheAdmirality
+		search_filters = {IC_FILTER}
 		cost = 8.00
 		prerequisite = {
 			focus = gen60_hardy_semen
@@ -828,6 +870,7 @@ focus_tree = {
 	focus = {
 		id = gen60_naval_armor
 		icon = GFX_focus_generic_coastal_fort
+		search_filters = {IC_FILTER}
 		cost = 8.00
 		prerequisite = {
 			focus = gen60_hardy_semen
@@ -847,6 +890,7 @@ focus_tree = {
 	focus = {
 		id = gen60_navy_org
 		icon = GFX_BugandaMutesaFocus
+		search_filters = {IC_FILTER}
 		cost = 8.00
 		prerequisite = {
 			focus = gen60_naval_armor
@@ -870,6 +914,7 @@ focus_tree = {
 	focus = {
 		id = gen60_spam_fleet
 		icon = GFX_SmallNavy
+		search_filters = {IC_FILTER}
 		cost = 8.00
 		prerequisite = {
 			focus = gen60_navy_org
@@ -899,6 +944,7 @@ focus_tree = {
 	focus = {
 		id = gen60_screen_research
 		icon = GFX_focus_generic_destroyer
+		search_filters = {IC_FILTER}
 		cost = 8.00
 		prerequisite = {
 			focus = gen60_spam_fleet
@@ -922,6 +968,7 @@ focus_tree = {
 	focus = {
 		id = gen60_sub_project
 		icon = GFX_goal_generic_navy_submarine
+		search_filters = {IC_FILTER}
 		cost = 8.00
 		prerequisite = {
 			focus = gen60_screen_research
@@ -943,6 +990,7 @@ focus_tree = {
 	focus = {
 		id = gen60_fleet_of_few
 		icon = GFX_goal_generic_navy_battleship
+		search_filters = {IC_FILTER}
 		cost = 8.00
 		prerequisite = {
 			focus = gen60_navy_org
@@ -972,6 +1020,7 @@ focus_tree = {
 	focus = {
 		id = gen60_naval_research_general_boost
 		icon = GFX_BluewaterNavy
+		search_filters = {IC_FILTER}
 		cost = 8.00
 		prerequisite = {
 			focus = gen60_spam_fleet
@@ -1002,6 +1051,7 @@ focus_tree = {
 	focus = {
 		id = gen60_capital_research
 		icon = GFX_focus_generic_cruiser2
+		search_filters = {IC_FILTER}
 		cost = 8.00
 		prerequisite = {
 			focus = gen60_fleet_of_few
@@ -1025,6 +1075,7 @@ focus_tree = {
 	focus = {
 		id = gen60_carrier_research
 		icon = GFX_goal_generic_navy_carrier
+		search_filters = {IC_FILTER}
 		cost = 8.00
 		prerequisite = {
 			focus = gen60_capital_research
@@ -1046,6 +1097,7 @@ focus_tree = {
 	focus = {
 		id = gen60_wr
 		icon = GFX_workersriseup
+		search_filters = {IC_FILTER}
 		cost = 20.00
 		prerequisite = {
 			focus = gen60_social_question
@@ -1063,6 +1115,7 @@ focus_tree = {
 	focus = {
 		id = gen60_wr_pe_1
 		icon = GFX_become_rich
+		search_filters = {IC_FILTER}
 		cost = 5.00
 		prerequisite = {
 			focus = gen60_wr
@@ -1095,6 +1148,7 @@ focus_tree = {
 	focus = {
 		id = gen60_wr_pe_2
 		icon = GFX_generic_repeal_working_hours
+		search_filters = {IC_FILTER}
 		cost = 5.00
 		prerequisite = {
 			focus = gen60_wr_pe_1
@@ -1113,6 +1167,7 @@ focus_tree = {
 	focus = {
 		id = gen60_wr_b_1
 		icon = GFX_goal_generic_neutrality_focus_Arabic
+		search_filters = {IC_FILTER}
 		cost = 5.00
 		prerequisite = {
 			focus = gen60_wr
@@ -1145,6 +1200,7 @@ focus_tree = {
 	focus = {
 		id = gen60_wr_b_2
 		icon = GFX_goal_generic_neutrality_focus
+		search_filters = {IC_FILTER}
 		cost = 5.00
 		prerequisite = {
 			focus = gen60_wr_b_1
@@ -1163,6 +1219,7 @@ focus_tree = {
 	focus = {
 		id = gen60_wr_pu_1
 		icon = GFX_goal_unknown
+		search_filters = {IC_FILTER}
 		cost = 5.00
 		prerequisite = {
 			focus = gen60_wr
@@ -1194,24 +1251,24 @@ focus_tree = {
 	focus = {
 		id = gen60_wr_pu_2
 		icon = GFX_goal_unknown
+		search_filters = {IC_FILTER}
 		cost = 5.00
 		prerequisite = {
 			focus = gen60_wr_pu_1
 		}
 		x = 30
 		y = 3
-		
-			completion_reward = {
-					swap_ideas = {
-							remove_idea = gen_pro_union_1
-							add_idea = gen_pro_union_2
-						}
-				}
-
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = gen_pro_union_1
+				add_idea = gen_pro_union_2
+			}
+		}
 	}
 	focus = {
 		id = gen60_e
 		icon = GFX_goal_unknown
+		search_filters = {IC_FILTER}
 		cost = 20.00
 		prerequisite = {
 			focus = gen60_wr_pe_2
@@ -1220,17 +1277,17 @@ focus_tree = {
 		}
 		x = 28
 		y = 4
-		
-			completion_reward = {
-				add_political_power = 50
-				add_stability = 0.025
-				country_event = icgensixty.3
-			}
+		completion_reward = {
+			add_political_power = 50
+			add_stability = 0.025
+			country_event = icgensixty.3
+		}
 
 	}
 	focus = {
 		id = gen60_e_p_1
 		icon = GFX_goal_unknown
+		search_filters = {IC_FILTER}
 		cost = 5.00
 		prerequisite = {
 			focus = gen60_e
@@ -1263,6 +1320,7 @@ focus_tree = {
 	focus = {
 		id = gen60_e_e_1
 		icon = GFX_environmentalism
+		search_filters = {IC_FILTER}
 		cost = 5.00
 		prerequisite = {
 			focus = gen60_e
@@ -1282,6 +1340,7 @@ focus_tree = {
 	focus = {
 		id = gen60_e_e_2
 		icon = GFX_goal_unknown
+		search_filters = {IC_FILTER}
 		cost = 5.00
 		prerequisite = {
 			focus = gen60_e_e_1
@@ -1300,6 +1359,7 @@ focus_tree = {
 	focus = {
 		id = gen60_e_p_2
 		icon = GFX_decadence
+		search_filters = {IC_FILTER}
 		cost = 5.00
 		prerequisite = {
 			focus = gen60_e_p_1
@@ -1318,6 +1378,7 @@ focus_tree = {
 	focus = {
 		id = gen60_gmr
 		icon = GFX_goal_unknown
+		search_filters = {IC_FILTER}
 		cost = 20.00
 		prerequisite = {
 			focus = gen60_social_question
@@ -1335,6 +1396,7 @@ focus_tree = {
 	focus = {
 		id = gen60_gmr_archy_1
 		icon = GFX_goal_unknown
+		search_filters = {IC_FILTER}
 		cost = 5.00
 		prerequisite = {
 			focus = gen60_gmr
@@ -1370,6 +1432,7 @@ focus_tree = {
 	focus = {
 		id = gen60_gmr_archy_2
 		icon = GFX_goal_unknown
+		search_filters = {IC_FILTER}
 		cost = 5.00
 		prerequisite = {
 			focus = gen60_gmr_archy_1
@@ -1388,6 +1451,7 @@ focus_tree = {
 	focus = {
 		id = gen60_gmr_b_1
 		icon = GFX_goal_unknown
+		search_filters = {IC_FILTER}
 		cost = 5.00
 		prerequisite = {
 			focus = gen60_gmr
@@ -1407,6 +1471,7 @@ focus_tree = {
 	focus = {
 		id = gen60_gmr_b_2
 		icon = GFX_goal_unknown
+		search_filters = {IC_FILTER}
 		cost = 5.00
 		prerequisite = {
 			focus = gen60_gmr_b_1
@@ -1425,6 +1490,7 @@ focus_tree = {
 	focus = {
 		id = gen60_gmr_e_1
 		icon = GFX_gender_equality
+		search_filters = {IC_FILTER}
 		cost = 5.00
 		prerequisite = {
 			focus = gen60_gmr
@@ -1454,6 +1520,7 @@ focus_tree = {
 	focus = {
 		id = gen60_gmr_e_2
 		icon = GFX_goal_unknown
+		search_filters = {IC_FILTER}
 		cost = 5.00
 		prerequisite = {
 			focus = gen60_gmr_e_1
@@ -1472,6 +1539,7 @@ focus_tree = {
 	focus = {
 		id = gen60_lgbt
 		icon = GFX_goal_unknown
+		search_filters = {IC_FILTER}
 		cost = 20.00
 		prerequisite = {
 			focus = gen60_gmr_archy_2
@@ -1491,6 +1559,7 @@ focus_tree = {
 	focus = {
 		id = gen60_lgbt_t_1
 		icon = GFX_goal_unknown
+		search_filters = {IC_FILTER}
 		cost = 5.00
 		prerequisite = {
 			focus = gen60_lgbt
@@ -1522,6 +1591,7 @@ focus_tree = {
 	focus = {
 		id = gen60_lgbt_e_1
 		icon = GFX_gay_flag_pic
+		search_filters = {IC_FILTER}
 		cost = 5.00
 		prerequisite = {
 			focus = gen60_lgbt
@@ -1553,6 +1623,7 @@ focus_tree = {
 	focus = {
 		id = gen60_lgbt_e_2
 		icon = GFX_gay_agenda
+		search_filters = {IC_FILTER}
 		cost = 5.00
 		prerequisite = {
 			focus = gen60_lgbt_e_1
@@ -1571,6 +1642,7 @@ focus_tree = {
 	focus = {
 		id = gen60_lgbt_t_2
 		icon = GFX_goal_unknown
+		search_filters = {IC_FILTER}
 		cost = 5.00
 		prerequisite = {
 			focus = gen60_lgbt_t_1
@@ -1589,6 +1661,7 @@ focus_tree = {
 	focus = {
 		id = gen60_m
 		icon = GFX_goal_unknown
+		search_filters = {IC_FILTER}
 		cost = 20.00
 		prerequisite = {
 			focus = gen60_social_question
@@ -1605,6 +1678,7 @@ focus_tree = {
 	focus = {
 		id = gen60_m_p_1
 		icon = GFX_pacifism
+		search_filters = {IC_FILTER}
 		cost = 5.00
 		prerequisite = {
 			focus = gen60_m
@@ -1637,6 +1711,7 @@ focus_tree = {
 	focus = {
 		id = gen60_m_p_2
 		icon = GFX_pacifism_2
+		search_filters = {IC_FILTER}
 		cost = 5.00
 		prerequisite = {
 			focus = gen60_m_p_1
@@ -1655,6 +1730,7 @@ focus_tree = {
 	focus = {
 		id = gen60_m_b_1
 		icon = GFX_goal_unknown
+		search_filters = {IC_FILTER}
 		cost = 5.00
 		prerequisite = {
 			focus = gen60_m
@@ -1674,6 +1750,7 @@ focus_tree = {
 	focus = {
 		id = gen60_m_b_2
 		icon = GFX_goal_unknown
+		search_filters = {IC_FILTER}
 		cost = 5.00
 		prerequisite = {
 			focus = gen60_m_b_1
@@ -1692,6 +1769,7 @@ focus_tree = {
 	focus = {
 		id = gen60_m_j_1
 		icon = GFX_goal_unknown
+		search_filters = {IC_FILTER}
 		cost = 5.00
 		prerequisite = {
 			focus = gen60_m
@@ -1725,6 +1803,7 @@ focus_tree = {
 	focus = {
 		id = gen60_m_j_2
 		icon = GFX_goal_unknown
+		search_filters = {IC_FILTER}
 		cost = 5.00
 		prerequisite = {
 			focus = gen60_m_j_1
@@ -1743,6 +1822,7 @@ focus_tree = {
 	focus = {
 		id = gen60_g
 		icon = GFX_globalism
+		search_filters = {IC_FILTER}
 		cost = 20.00
 		prerequisite = {
 			focus = gen60_m_p_2
@@ -1762,6 +1842,7 @@ focus_tree = {
 	focus = {
 		id = gen60_g_n_1
 		icon = GFX_goal_unknown
+		search_filters = {IC_FILTER}
 		cost = 5.00
 		prerequisite = {
 			focus = gen60_g
@@ -1791,6 +1872,7 @@ focus_tree = {
 	focus = {
 		id = gen60_g_g_1
 		icon = GFX_goal_unknown
+		search_filters = {IC_FILTER}
 		cost = 5.00
 		prerequisite = {
 			focus = gen60_g
@@ -1819,6 +1901,7 @@ focus_tree = {
 	focus = {
 		id = gen60_g_g_2
 		icon = GFX_goal_unknown
+		search_filters = {IC_FILTER}
 		cost = 5.00
 		prerequisite = {
 			focus = gen60_g_g_1
@@ -1837,6 +1920,7 @@ focus_tree = {
 	focus = {
 		id = gen60_g_n_2
 		icon = GFX_goal_unknown
+		search_filters = {IC_FILTER}
 		cost = 5.00
 		prerequisite = {
 			focus = gen60_g_n_1
@@ -1855,6 +1939,7 @@ focus_tree = {
 	focus = {
 		id = gen60_darkwoods
 		icon = GFX_tve
+		search_filters = {IC_FILTER}
 		cost = 10.00
 		prerequisite = {
 			focus = gen60_nat_tv
@@ -1871,6 +1956,7 @@ focus_tree = {
 	focus = {
 		id = gen60_cartoons
 		icon = GFX_focus_AST_rats_tobruk
+		search_filters = {IC_FILTER}
 		cost = 10.00
 		prerequisite = {
 			focus = gen60_darkwoods
@@ -1890,6 +1976,7 @@ focus_tree = {
 	focus = {
 		id = gen60_drama
 		icon = GFX_focus_cze_german_puppet
+		search_filters = {IC_FILTER}
 		cost = 10.00
 		prerequisite = {
 			focus = gen60_darkwoods
@@ -1909,6 +1996,7 @@ focus_tree = {
 	focus = {
 		id = gen60_huh_huh_he_got_hit_in_the_nuts_huh_huh
 		icon = GFX_microphone
+		search_filters = {IC_FILTER}
 		cost = 10.00
 		prerequisite = {
 			focus = gen60_cartoons
@@ -1929,6 +2017,7 @@ focus_tree = {
 	focus = {
 		id = gen60_big_game
 		icon = GFX_pepsi
+		search_filters = {IC_FILTER}
 		cost = 2.00
 		prerequisite = {
 			focus = gen60_nat_tv
@@ -1945,6 +2034,7 @@ focus_tree = {
 	focus = {
 		id = gen60_endow_commerce
 		icon = GFX_focus_generic_the_giant_wakes
+		search_filters = {IC_FILTER}
 		cost = 5.00
 		prerequisite = {
 			focus = gen60_big_game
@@ -1964,6 +2054,7 @@ focus_tree = {
 	focus = {
 		id = gen60_welfare
 		icon = GFX_focus_generic_concessions
+		search_filters = {IC_FILTER}
 		cost = 10.00
 		prerequisite = {
 			focus = gen60_late_socialist
@@ -1992,6 +2083,7 @@ focus_tree = {
 	focus = {
 		id = gen60_healthcare_1
 		icon = GFX_healthcare
+		search_filters = {IC_FILTER}
 		cost = 10.00
 		prerequisite = {
 			focus = gen60_welfare
@@ -2021,6 +2113,7 @@ focus_tree = {
 	focus = {
 		id = gen60_realart
 		icon = GFX_focus_generic_home_defense
+		search_filters = {IC_FILTER}
 		cost = 10.00
 		prerequisite = {
 			focus = gen60_drama
@@ -2041,6 +2134,7 @@ focus_tree = {
 	focus = {
 		id = gen60_sports_stadiums
 		icon = GFX_mnm
+		search_filters = {IC_FILTER}
 		cost = 5.00
 		prerequisite = {
 			focus = gen60_big_game
@@ -2060,6 +2154,7 @@ focus_tree = {
 	focus = {
 		id = gen60_subsidies
 		icon = GFX_goal_generic_construction
+		search_filters = {IC_FILTER}
 		cost = 10.00
 		prerequisite = {
 			focus = gen60_late_centrist
@@ -2088,6 +2183,7 @@ focus_tree = {
 	focus = {
 		id = gen60_schools
 		icon = GFX_KanslergadeMeeting
+		search_filters = {IC_FILTER}
 		cost = 10.00
 		prerequisite = {
 			focus = gen60_subsidies
@@ -2115,6 +2211,7 @@ focus_tree = {
 	focus = {
 		id = gen60_radio
 		icon = GFX_goal_generic_propaganda
+		search_filters = {IC_FILTER}
 		cost = 16.00
 		prerequisite = {
 			focus = gen60_nat_tv
@@ -2131,6 +2228,7 @@ focus_tree = {
 	focus = {
 		id = gen60_realnews
 		icon = GFX_TanksAcrosstheBorder
+		search_filters = {IC_FILTER}
 		cost = 2.00
 		prerequisite = {
 			focus = gen60_radio
@@ -2154,6 +2252,7 @@ focus_tree = {
 	focus = {
 		id = gen60_fakenews
 		icon = GFX_Infrastructure_Athens
+		search_filters = {IC_FILTER}
 		cost = 2.00
 		prerequisite = {
 			focus = gen60_radio
@@ -2177,6 +2276,7 @@ focus_tree = {
 	focus = {
 		id = gen60_natreporters
 		icon = GFX_ShadowOverEurope
+		search_filters = {IC_FILTER}
 		cost = 2.00
 		prerequisite = {
 			focus = gen60_fakenews
@@ -2201,6 +2301,7 @@ focus_tree = {
 	focus = {
 		id = gen60_parks_and_rec
 		icon = GFX_focus_drought_relief
+		search_filters = {IC_FILTER}
 		cost = 5.00
 		prerequisite = {
 			focus = gen60_big_game
@@ -2220,6 +2321,7 @@ focus_tree = {
 	focus = {
 		id = gen60_cut_military
 		icon = GFX_focus_renounce_the_treaty_of_triannon
+		search_filters = {IC_FILTER}
 		cost = 10.00
 		prerequisite = {
 			focus = gen60_late_capitalist
@@ -2248,6 +2350,7 @@ focus_tree = {
 	focus = {
 		id = gen60_reduce_med_costs
 		icon = GFX_Greece_german_loan
+		search_filters = {IC_FILTER}
 		cost = 10.00
 		prerequisite = {
 			focus = gen60_cut_military
@@ -2276,6 +2379,7 @@ focus_tree = {
 	focus = {
 		id = gen60_more_fucking_choppers
 		icon = GFX_Helicoptor_Production
+		search_filters = {IC_FILTER}
 		cost = 8.00
 		prerequisite = {
 			focus = gen60_new_traditions
@@ -2297,6 +2401,7 @@ focus_tree = {
 	focus = {
 		id = gen60_missile_research
 		icon = GFX_focus_rocketry
+		search_filters = {IC_FILTER}
 		cost = 8.00
 		prerequisite = {
 			focus = gen60_new_traditions
@@ -2318,6 +2423,7 @@ focus_tree = {
 	focus = {
 		id = gen60_heavy_armor_research
 		icon = GFX_focus_generic_tank_production
+		search_filters = {IC_FILTER}
 		cost = 8.00
 		prerequisite = {
 			focus = gen60_old_traditions
@@ -2340,6 +2446,7 @@ focus_tree = {
 	focus = {
 		id = gen60_area_69
 		icon = GFX_TechnologicalSupremacy
+		search_filters = {IC_FILTER}
 		cost = 8.00
 		prerequisite = {
 			focus = gen60_new_traditions
@@ -2362,6 +2469,7 @@ focus_tree = {
 	focus = {
 		id = gen60_doctrine_up
 		icon = GFX_goal_generic_occupy_states_ongoing_war
+		search_filters = {IC_FILTER}
 		cost = 8.00
 		prerequisite = {
 			focus = gen60_old_traditions
@@ -2383,6 +2491,7 @@ focus_tree = {
 	focus = {
 		id = gen60_e_b_1
 		icon = GFX_goal_unknown
+		search_filters = {IC_FILTER}
 		cost = 5.00
 		prerequisite = {
 			focus = gen60_e
@@ -2402,6 +2511,7 @@ focus_tree = {
 	focus = {
 		id = gen60_e_b_2
 		icon = GFX_goal_unknown
+		search_filters = {IC_FILTER}
 		cost = 5.00
 		prerequisite = {
 			focus = gen60_e_b_1
@@ -2420,6 +2530,7 @@ focus_tree = {
 	focus = {
 		id = gen60_lgbt_b_1
 		icon = GFX_goal_unknown
+		search_filters = {IC_FILTER}
 		cost = 5.00
 		prerequisite = {
 			focus = gen60_lgbt
@@ -2449,6 +2560,7 @@ focus_tree = {
 	focus = {
 		id = gen60_lgbt_b_2
 		icon = GFX_goal_unknown
+		search_filters = {IC_FILTER}
 		cost = 5.00
 		prerequisite = {
 			focus = gen60_lgbt_b_1
@@ -2467,6 +2579,7 @@ focus_tree = {
 	focus = {
 		id = gen60_g_b_1
 		icon = GFX_goal_unknown
+		search_filters = {IC_FILTER}
 		cost = 5.00
 		prerequisite = {
 			focus = gen60_g
@@ -2497,6 +2610,7 @@ focus_tree = {
 	focus = {
 		id = gen60_g_b_2
 		icon = GFX_goal_unknown
+		search_filters = {IC_FILTER}
 		cost = 5.00
 		prerequisite = {
 			focus = gen60_g_b_1
@@ -2515,6 +2629,7 @@ focus_tree = {
 	focus = {
 		id = gen60_infrastructure_interstate
 		icon = GFX_FocusBuildRoads
+		search_filters = {IC_FILTER}
 		cost = 10.00
 		prerequisite = {
 			focus = gen60_e_p_2
@@ -2523,202 +2638,124 @@ focus_tree = {
 		}
 		x = 26
 		y = 8
-		
-			available = {
-					NOT = {
-							has_idea = infrastructure_boost_general
-							has_idea = civilian_boost_general
-							has_idea = military_boost_general
-							has_idea = navy_boost_general
-						}
+		available = {
+			NOT = {
+				has_idea = infrastructure_boost_general
+				has_idea = civilian_boost_general
+				has_idea = military_boost_general
+				has_idea = navy_boost_general
+			}
+		}
+		completion_reward = {
+			add_timed_idea = {
+				idea = infrastructure_boost_general
+				days = 180
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = state_infrastructure
+						size > 0
+					}
 				}
-			complete_tooltip = {
-					add_building_construction = {
-							type = infrastructure
-							level = 1
-							instant_build = yes
-						}
-					add_building_construction = {
-							type = infrastructure
-							level = 1
-							instant_build = yes
-						}
+				add_building_construction = {
+					type = state_infrastructure
+					level = 1
+					instant_build = yes
 				}
-			completion_reward = {
-					add_timed_idea = {
-							idea = infrastructure_boost_general
-							days = 180
-						}
-					random_owned_controlled_state = {
-							limit = {
-									free_building_slots = {
-											building = infrastructure
-											size > 1
-										}
-									OR = {
-											is_in_home_area = yes
-											NOT = {
-													owner = {
-															any_owned_state = {
-																	free_building_slots = {
-																			building = infrastructure
-																			size > 1
-																		}
-																	is_in_home_area = yes
-																}
-														}
-												}
-										}
-								}
-							add_building_construction = {
-									type = infrastructure
-									level = 1
-									instant_build = yes
-								}
-						}
-					random_owned_controlled_state = {
-							limit = {
-									free_building_slots = {
-											building = infrastructure
-											size > 1
-										}
-									OR = {
-											is_in_home_area = yes
-											NOT = {
-													owner = {
-															any_owned_state = {
-																	free_building_slots = {
-																			building = infrastructure
-																			size > 1
-																		}
-																	is_in_home_area = yes
-																}
-														}
-												}
-										}
-								}
-							add_building_construction = {
-									type = infrastructure
-									level = 1
-									instant_build = yes
-								}
-						}
-					random_owned_state = {
-							add_resource = {
-									type = tungsten
-									amount = 4
-								}
-						}
-					random_owned_state = {
-							add_resource = {
-									type = oil
-									amount = 10
-								}
-						}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = state_infrastructure
+						size > 0
+					}
+					owner = {
+						num_of_factories > 10
+					}
 				}
-
+				add_building_construction = {
+					type = state_infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = state_infrastructure
+						size > 1
+					}
+					owner = {
+						num_of_factories > 10
+					}
+				}
+				add_building_construction = {
+					type = state_infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
 	}
 	focus = {
 		id = gen60_infrastructure_railway
 		icon = GFX_FocusBuildRailroads
+		search_filters = {IC_FILTER}
 		cost = 10.00
 		prerequisite = {
 			focus = gen60_infrastructure_interstate
 		}
 		x = 26
 		y = 9
-		
-			available = {
-					NOT = {
-							has_idea = infrastructure_boost_general
-							has_idea = civilian_boost_general
-							has_idea = military_boost_general
-							has_idea = navy_boost_general
-						}
+		available = {
+			NOT = {
+				has_idea = infrastructure_boost_general
+				has_idea = civilian_boost_general
+				has_idea = military_boost_general
+				has_idea = navy_boost_general
+			}
+		}
+		completion_reward = {
+			add_timed_idea = {
+				idea = infrastructure_boost_general
+				days = 180
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = state_infrastructure
+						size > 1
+					}
 				}
-			complete_tooltip = {
-					add_building_construction = {
-							type = infrastructure
-							level = 1
-							instant_build = yes
-						}
-					add_building_construction = {
-							type = infrastructure
-							level = 1
-							instant_build = yes
-						}
+				add_building_construction = {
+					type = state_infrastructure
+					level = 1
+					instant_build = yes
 				}
-			completion_reward = {
-					add_timed_idea = {
-							idea = infrastructure_boost_general
-							days = 180
-						}
-					random_owned_controlled_state = {
-							limit = {
-									free_building_slots = {
-											building = infrastructure
-											size > 1
-										}
-									OR = {
-											is_in_home_area = yes
-											NOT = {
-													owner = {
-															any_owned_state = {
-																	free_building_slots = {
-																			building = infrastructure
-																			size > 1
-																		}
-																	is_in_home_area = yes
-																}
-														}
-												}
-										}
-								}
-							add_building_construction = {
-									type = infrastructure
-									level = 1
-									instant_build = yes
-								}
-						}
-					random_owned_controlled_state = {
-							limit = {
-									free_building_slots = {
-											building = infrastructure
-											size > 1
-										}
-									OR = {
-											is_in_home_area = yes
-											NOT = {
-													owner = {
-															any_owned_state = {
-																	free_building_slots = {
-																			building = infrastructure
-																			size > 1
-																		}
-																	is_in_home_area = yes
-																}
-														}
-												}
-										}
-								}
-							add_building_construction = {
-									type = infrastructure
-									level = 1
-									instant_build = yes
-								}
-						}
-					random_owned_state = {
-							add_resource = {
-									type = chromium
-									amount = 1
-								}
-						}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = state_infrastructure
+						size > 2
+					}
+					owner = {
+						num_of_factories > 10
+					}
 				}
-
+				add_building_construction = {
+					type = state_infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
 	}
 	focus = {
 		id = gen60_mil_naval_bases
 		icon = GFX_goal_generic_construct_naval_dockyard
+		search_filters = {IC_FILTER}
 		cost = 5.00
 		prerequisite = {
 			focus = gen60_infrastructure_interstate
@@ -2726,114 +2763,190 @@ focus_tree = {
 		}
 		x = 28
 		y = 9
-		
-			completion_reward = {
-
+		available = {
+			any_state = {
+				is_coastal = yes
+				is_controlled_by = ROOT
+			}
+		}
+		completion_reward = {
+			navy_experience = 25
+			if = {
+				limit = {
+					any_owned_state = {
+						is_coastal = yes
+					}
 				}
-
+				random_owned_controlled_state = {
+					limit = {
+						is_coastal = yes
+						free_building_slots = {
+							building = naval_base
+							size > 1
+							include_locked = yes
+						}
+						owner = {
+							num_of_military_factories > 10
+						}
+					}
+					add_building_construction = {
+						type = naval_base
+						level = 2
+						instant_build = yes
+					}
+				}
+				random_owned_controlled_state = {
+					limit = {
+						is_coastal = yes
+						free_building_slots = {
+							building = naval_base
+							size > 1
+							include_locked = yes
+						}
+						owner = {
+							num_of_military_factories > 20
+						}
+					}
+					add_building_construction = {
+						type = naval_base
+						level = 2
+						instant_build = yes
+					}
+				}
+				random_owned_controlled_state = {
+					limit = {
+						is_coastal = yes
+						free_building_slots = {
+							building = naval_base
+							size > 2
+							include_locked = yes
+						}
+						owner = {
+							num_of_military_factories > 30
+						}
+					}
+					add_building_construction = {
+						type = naval_base
+						level = 3
+						instant_build = yes
+					}
+				}
+				random_owned_controlled_state = {
+					limit = {
+						is_coastal = yes
+						free_building_slots = {
+							building = naval_base
+							size > 3
+							include_locked = yes
+						}
+						owner = {
+							num_of_military_factories > 40
+						}
+					}
+					add_building_construction = {
+						type = naval_base
+						level = 4
+						instant_build = yes
+					}
+				}
+				random_owned_controlled_state = {
+					limit = {
+						is_coastal = yes
+						free_building_slots = {
+							building = naval_base
+							size > 4
+							include_locked = yes
+						}
+						owner = {
+							num_of_military_factories > 50
+						}
+					}
+					add_building_construction = {
+						type = naval_base
+						level = 5
+						instant_build = yes
+					}
+				}
+			}
+		}
 	}
 	focus = {
 		id = gen60_infrastructure_revise_planning
 		icon = GFX_canal
+		search_filters = {IC_FILTER}
 		cost = 10.00
 		prerequisite = {
 			focus = gen60_infrastructure_urban
 		}
 		x = 30
 		y = 9
-		
-			available = {
-					NOT = {
-							has_idea = infrastructure_boost_general
-							has_idea = civilian_boost_general
-							has_idea = military_boost_general
-							has_idea = navy_boost_general
-						}
+		available = {
+			NOT = {
+				has_idea = infrastructure_boost_general
+				has_idea = civilian_boost_general
+				has_idea = military_boost_general
+				has_idea = navy_boost_general
+			}
+		}
+		completion_reward = {
+			add_timed_idea = {
+				idea = infrastructure_boost_general
+				days = 180
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 0
+					}
+					owner = {
+						num_of_factories > 10
+					}
 				}
-			complete_tooltip = {
-					add_building_construction = {
-							type = infrastructure
-							level = 1
-							instant_build = yes
-						}
-					add_building_construction = {
-							type = infrastructure
-							level = 1
-							instant_build = yes
-						}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
 				}
-			completion_reward = {
-					add_timed_idea = {
-							idea = infrastructure_boost_general
-							days = 180
-						}
-					random_owned_controlled_state = {
-							limit = {
-									free_building_slots = {
-											building = infrastructure
-											size > 0
-										}
-									OR = {
-											is_in_home_area = yes
-											NOT = {
-													owner = {
-															any_owned_state = {
-																	free_building_slots = {
-																			building = infrastructure
-																			size > 0
-																		}
-																	is_in_home_area = yes
-																}
-														}
-												}
-										}
-								}
-							add_building_construction = {
-									type = infrastructure
-									level = 1
-									instant_build = yes
-								}
-						}
-					random_owned_controlled_state = {
-							limit = {
-									free_building_slots = {
-											building = infrastructure
-											size > 1
-										}
-									OR = {
-											is_in_home_area = yes
-											NOT = {
-													owner = {
-															any_owned_state = {
-																	free_building_slots = {
-																			building = infrastructure
-																			size > 1
-																		}
-																	is_in_home_area = yes
-																}
-														}
-												}
-										}
-								}
-							add_building_construction = {
-									type = infrastructure
-									level = 1
-									instant_build = yes
-								}
-						}
-					random_owned_state = {
-							add_resource = {
-									type = aluminium
-									amount = 10
-								}
-						}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 0
+					}
+					owner = {
+						num_of_factories > 10
+					}
 				}
-
-
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 1
+					}
+					owner = {
+						num_of_factories > 10
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
 	}
 	focus = {
 		id = gen60_infrastructure_urban
 		icon = GFX_goal_generic_construction2
+		search_filters = {IC_FILTER}
 		cost = 10.00
 		prerequisite = {
 			focus = gen60_e_e_2
@@ -2842,98 +2955,51 @@ focus_tree = {
 		}
 		x = 30
 		y = 8
-		
-			available = {
-					NOT = {
-							has_idea = infrastructure_boost_general
-							has_idea = civilian_boost_general
-							has_idea = military_boost_general
-							has_idea = navy_boost_general
-						}
+		available = {
+			NOT = {
+				has_idea = infrastructure_boost_general
+				has_idea = civilian_boost_general
+				has_idea = military_boost_general
+				has_idea = navy_boost_general
+			}
+		}
+		completion_reward = {
+			add_timed_idea = {
+				idea = infrastructure_boost_general
+				days = 180
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 0
+					}
 				}
-			complete_tooltip = {
-					add_building_construction = {
-							type = infrastructure
-							level = 1
-							instant_build = yes
-						}
-					add_building_construction = {
-							type = infrastructure
-							level = 1
-							instant_build = yes
-						}
+				add_building_construction = {
+				type = infrastructure
+					level = 1
+					instant_build = yes
 				}
-			completion_reward = {
-					add_timed_idea = {
-							idea = infrastructure_boost_general
-							days = 180
-						}
-					random_owned_controlled_state = {
-							limit = {
-									free_building_slots = {
-											building = infrastructure
-											size > 0
-										}
-									OR = {
-											is_in_home_area = yes
-											NOT = {
-													owner = {
-															any_owned_state = {
-																	free_building_slots = {
-																			building = infrastructure
-																			size > 0
-																		}
-																	is_in_home_area = yes
-																}
-														}
-												}
-										}
-								}
-							add_building_construction = {
-									type = infrastructure
-									level = 1
-									instant_build = yes
-								}
-						}
-					random_owned_controlled_state = {
-							limit = {
-									free_building_slots = {
-											building = infrastructure
-											size > 1
-										}
-									OR = {
-											is_in_home_area = yes
-											NOT = {
-													owner = {
-															any_owned_state = {
-																	free_building_slots = {
-																			building = infrastructure
-																			size > 1
-																		}
-																	is_in_home_area = yes
-																}
-														}
-												}
-										}
-								}
-							add_building_construction = {
-									type = infrastructure
-									level = 1
-									instant_build = yes
-								}
-						}
-					random_owned_state = {
-							add_resource = {
-									type = steel
-									amount = 10
-								}
-						}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 1
+					}
 				}
-
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
 	}
 	focus = {
 		id = gen60_civilian_rust_belt
 		icon = GFX_focus_generic_industry_2
+		search_filters = {IC_FILTER}
 		cost = 10.00
 		prerequisite = {
 			focus = gen60_lgbt_e_2
@@ -2942,142 +3008,84 @@ focus_tree = {
 		}
 		x = 32
 		y = 8
-		
-			ai_will_do = {
-					factor = 2
+		available = {
+			NOT = {
+				has_idea = infrastructure_boost_general
+				has_idea = civilian_boost_general
+				has_idea = military_boost_general
+				has_idea = navy_boost_general
+			}
+		}
+		completion_reward = {
+			add_timed_idea = {
+				idea = civilian_boost_general
+				days = 180
+			}
+			if = {
+				limit = {
+					owner = {
+						num_of_factories > 10
+					}
 				}
-			bypass = {
-					custom_trigger_tooltip = {
-							tooltip = construction_effort_tt
-							all_owned_state = {
-									free_building_slots = {
-											building = industrial_complex
-											size < 2
-											include_locked = yes
-										}
-								}
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 0
+							include_locked = yes
 						}
-				}
-			complete_tooltip = {
-					add_extra_state_shared_building_slots = 2
+					}
+					add_extra_state_shared_building_slots = 1
 					add_building_construction = {
-							type = industrial_complex
-							level = 1
-							instant_build = yes
-						}
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
 				}
-			completion_reward = {
-					random_owned_controlled_state = {
-							limit = {
-									free_building_slots = {
-											building = industrial_complex
-											size > 0
-											include_locked = yes
-										}
-									OR = {
-											is_in_home_area = yes
-											NOT = {
-													owner = {
-															any_owned_state = {
-																	free_building_slots = {
-																			building = industrial_complex
-																			size > 0
-																			include_locked = yes
-																		}
-																	is_in_home_area = yes
-																}
-														}
-												}
-										}
-								}
-							add_extra_state_shared_building_slots = 2
-							add_building_construction = {
-									type = industrial_complex
-									level = 1
-									instant_build = yes
-								}
-						}
-				}
-
+			}
+		}
 	}
 	focus = {
 		id = gen60_civilian_industrialize
 		icon = GFX_focus_generic_industry_3
+		search_filters = {IC_FILTER}
 		cost = 10.00
 		prerequisite = {
 			focus = gen60_civilian_rust_belt
 		}
 		x = 32
 		y = 9
-		
-			ai_will_do = {
-					factor = 2
-				}
-			available = {
-					NOT = {
-							has_idea = infrastructure_boost_general
-							has_idea = civilian_boost_general
-							has_idea = military_boost_general
-							has_idea = navy_boost_general
+		available = {
+			NOT = {
+				has_idea = infrastructure_boost_general
+				has_idea = civilian_boost_general
+				has_idea = military_boost_general
+				has_idea = navy_boost_general
+			}
+		}
+		completion_reward = {
+			add_timed_idea = {
+				idea = civilian_boost_general
+				days = 180
+			}
+			random_owned_controlled_state = {
+				if = {
+					limit = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 0
+							include_locked = yes
 						}
-				}
-			bypass = {
-					custom_trigger_tooltip = {
-							tooltip = construction_effort_tt
-							all_owned_state = {
-									free_building_slots = {
-											building = industrial_complex
-											size < 1
-											include_locked = yes
-										}
-								}
-						}
-				}
-			complete_tooltip = {
+					}
 					add_extra_state_shared_building_slots = 1
 					add_building_construction = {
-							type = industrial_complex
-							level = 1
-							instant_build = yes
-						}
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
 				}
-			completion_reward = {
-					add_timed_idea = {
-							idea = civilian_boost_general
-							days = 180
-						}
-					random_owned_controlled_state = {
-							limit = {
-									free_building_slots = {
-											building = industrial_complex
-											size > 0
-											include_locked = yes
-										}
-									OR = {
-											is_in_home_area = yes
-											NOT = {
-													owner = {
-															any_owned_state = {
-																	free_building_slots = {
-																			building = industrial_complex
-																			size > 0
-																			include_locked = yes
-																		}
-																	is_in_home_area = yes
-																}
-														}
-												}
-										}
-								}
-							add_extra_state_shared_building_slots = 1
-							add_building_construction = {
-									type = industrial_complex
-									level = 1
-									instant_build = yes
-								}
-						}
-				}
-
+			}
+		}
 	}
 	focus = {
 		id = gen60_mil_air_bases
@@ -3089,72 +3097,27 @@ focus_tree = {
 		}
 		x = 34
 		y = 9
-		
-			complete_tooltip = {
-					air_experience = 25
-					if = {
-							limit = {
-									has_country_flag = aviation_effort_AB
-								}
-							add_building_construction = {
-									type = air_base
-									level = 4
-									instant_build = yes
-								}
+		completion_reward = {
+			air_experience = 25
+			random_owned_controlled_state = {
+				limit = {
+					AND = {
+						free_building_slots = {
+							building = air_base
+							size > 2
 						}
+						owner = {
+							num_of_military_factories > 10
+						}
+					}
 				}
-			completion_reward = {
-					air_experience = 25
-					if = {
-							limit = {
-									capital_scope = {
-											NOT = {
-													free_building_slots = {
-															building = air_base
-															size > 1
-														}
-												}
-										}
-								}
-							random_owned_controlled_state = {
-									limit = {
-											free_building_slots = {
-													building = air_base
-													size > 1
-												}
-										}
-									add_building_construction = {
-											type = air_base
-											level = 4
-											instant_build = yes
-										}
-									ROOT = {
-											set_country_flag = aviation_effort_AB
-										}
-								}
-						}
-					if = {
-							limit = {
-									capital_scope = {
-											free_building_slots = {
-													building = air_base
-													size > 1
-												}
-										}
-								}
-							capital_scope = {
-									add_building_construction = {
-											type = air_base
-											level = 4
-											instant_build = yes
-										}
-									ROOT = {
-											set_country_flag = aviation_effort_AB
-										}
-								}
-						}
+				add_building_construction = {
+					type = air_base
+					level = 3
+					instant_build = yes
 				}
-
+			}
+		}
 	}
 	focus = {
 		id = gen60_civilian_urban_renewal
@@ -3167,297 +3130,200 @@ focus_tree = {
 		}
 		x = 36
 		y = 8
-		
-			ai_will_do = {
-					factor = 2
+		available = {
+			NOT = {
+				has_idea = infrastructure_boost_general
+				has_idea = civilian_boost_general
+				has_idea = military_boost_general
+				has_idea = navy_boost_general
+			}
+		}
+		completion_reward = {
+			add_timed_idea = {
+				idea = civilian_boost_general
+				days = 180
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = office_park
+						size > 0
+						include_locked = yes
+					}
+					owner = {
+						num_of_factories > 10
+					}
 				}
-			available = {
-					NOT = {
-							has_idea = infrastructure_boost_general
-							has_idea = civilian_boost_general
-							has_idea = military_boost_general
-							has_idea = navy_boost_general
-						}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = office_park
+					level = 1
+					instant_build = yes
 				}
-			bypass = {
-					custom_trigger_tooltip = {
-							tooltip = construction_effort_tt
-							all_owned_state = {
-									free_building_slots = {
-											building = industrial_complex
-											size < 1
-											include_locked = yes
-										}
-								}
-						}
-				}
-			complete_tooltip = {
-					add_extra_state_shared_building_slots = 1
-					add_building_construction = {
-							type = industrial_complex
-							level = 1
-							instant_build = yes
-						}
-				}
-			completion_reward = {
-					add_timed_idea = {
-							idea = civilian_boost_general
-							days = 180
-						}
-					random_owned_controlled_state = {
-							limit = {
-									free_building_slots = {
-											building = industrial_complex
-											size > 0
-											include_locked = yes
-										}
-									OR = {
-											is_in_home_area = yes
-											NOT = {
-													owner = {
-															any_owned_state = {
-																	free_building_slots = {
-																			building = industrial_complex
-																			size > 0
-																			include_locked = yes
-																		}
-																	is_in_home_area = yes
-																}
-														}
-												}
-										}
-								}
-							add_extra_state_shared_building_slots = 1
-							add_building_construction = {
-									type = industrial_complex
-									level = 1
-									instant_build = yes
-								}
-						}
-				}
-
+			}
+		}
 	}
 	focus = {
 		id = gen60_civilian_urban_services
 		icon = GFX_Focus_Tokyo
+		search_filters = {IC_FILTER}
 		cost = 10.00
 		prerequisite = {
 			focus = gen60_civilian_urban_renewal
 		}
 		x = 36
 		y = 9
-		
-			ai_will_do = {
-					factor = 10
+		available = {
+			NOT = {
+				has_idea = infrastructure_boost_general
+				has_idea = civilian_boost_general
+				has_idea = military_boost_general
+				has_idea = navy_boost_general
+			}
+		}
+		completion_reward = {
+			add_timed_idea = {
+				idea = civilian_boost_general
+				days = 180
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = office_park
+						size > 0
+						include_locked = yes
+					}
+					owner = {
+						num_of_factories > 10
+					}
 				}
-			available = {
-					NOT = {
-							has_idea = infrastructure_boost_general
-							has_idea = civilian_boost_general
-							has_idea = military_boost_general
-							has_idea = navy_boost_general
-						}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = office_park
+					level = 1
+					instant_build = yes
 				}
-			bypass = {
-					custom_trigger_tooltip = {
-							tooltip = construction_effort_tt
-							all_owned_state = {
-									free_building_slots = {
-											building = industrial_complex
-											size < 1
-											include_locked = yes
-										}
-								}
-						}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = water_infrastructure
+						size > 0
+					}
+					owner = {
+						num_of_factories > 10
+					}
 				}
-			complete_tooltip = {
-					add_extra_state_shared_building_slots = 1
-					add_building_construction = {
-							type = industrial_complex
-							level = 1
-							instant_build = yes
-						}
+				add_building_construction = {
+					type = water_infrastructure
+					level = 1
+					instant_build = yes
 				}
-			completion_reward = {
-					add_research_slot = 1
-					add_timed_idea = {
-							idea = civilian_boost_general
-							days = 180
-						}
-					random_owned_controlled_state = {
-							limit = {
-									free_building_slots = {
-											building = industrial_complex
-											size > 0
-											include_locked = yes
-										}
-									OR = {
-											is_in_home_area = yes
-											NOT = {
-													owner = {
-															any_owned_state = {
-																	free_building_slots = {
-																			building = industrial_complex
-																			size > 0
-																			include_locked = yes
-																		}
-																	is_in_home_area = yes
-																}
-														}
-												}
-										}
-								}
-							add_extra_state_shared_building_slots = 1
-							add_building_construction = {
-									type = industrial_complex
-									level = 1
-									instant_build = yes
-								}
-						}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = water_infrastructure
+						size > 1
+					}
+					owner = {
+						num_of_factories > 20
+					}
 				}
-
+				add_building_construction = {
+					type = water_infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = water_infrastructure
+						size > 1
+					}
+					owner = {
+						num_of_factories > 30
+					}
+				}
+				add_building_construction = {
+					type = water_infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = water_infrastructure
+						size > 1
+					}
+					owner = {
+						num_of_factories > 40
+					}
+				}
+				add_building_construction = {
+					type = water_infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
 	}
 	focus = {
 		id = gen60_military_naval_expansion
 		icon = GFX_focus_generic_navy_battleship2
+		search_filters = {IC_FILTER}
 		cost = 10.00
 		prerequisite = {
 			focus = gen60_military_revise_plans
 		}
 		x = 38
 		y = 9
-		
-			available = {
-					any_state = {
-							is_coastal = yes
-							is_controlled_by = ROOT
-						}
+		available = {
+			AND = {
+				any_state = {
+					is_coastal = yes
+					is_controlled_by = ROOT
 				}
-			available = {
-					NOT = {
-							has_idea = infrastructure_boost_general
-							has_idea = civilian_boost_general
-							has_idea = military_boost_general
-							has_idea = navy_boost_general
-						}
+				NOT = {
+					has_idea = infrastructure_boost_general
+					has_idea = civilian_boost_general
+					has_idea = military_boost_general
+					has_idea = navy_boost_general
 				}
-			complete_tooltip = {
-					navy_experience = 25
+			}
+		}
+		completion_reward = {
+			add_timed_idea = {
+				idea = navy_boost_general
+				days = 180
+			}
+			navy_experience = 25
+			if = {
+				limit = {
+					owner = {
+						num_of_military_factories > 10
+					}
+				}
+				random_owned_controlled_state = {
+					limit = {
+						is_coastal = yes
+						free_building_slots = {
+							building = dockyard
+							size > 1
+							include_locked = yes
+						}
+					}
 					add_extra_state_shared_building_slots = 2
 					add_building_construction = {
-							type = dockyard
-							level = 2
-							instant_build = yes
-						}
+						type = dockyard
+						level = 2
+						instant_build = yes
+					}
 				}
-			completion_reward = {
-					add_timed_idea = {
-							idea = navy_boost_general
-							days = 180
-						}
-					navy_experience = 25
-					if = {
-							limit = {
-									NOT = {
-											any_owned_state = {
-													dockyard > 0
-													free_building_slots = {
-															building = dockyard
-															size > 2
-															include_locked = yes
-														}
-												}
-										}
-									any_owned_state = {
-											is_coastal = yes
-										}
-								}
-							random_owned_controlled_state = {
-									limit = {
-											is_coastal = yes
-											free_building_slots = {
-													building = dockyard
-													size > 2
-													include_locked = yes
-												}
-										}
-									add_extra_state_shared_building_slots = 2
-									add_building_construction = {
-											type = dockyard
-											level = 2
-											instant_build = yes
-										}
-								}
-							set_country_flag = naval_effort_built
-						}
-					if = {
-							limit = {
-									NOT = {
-											has_country_flag = naval_effort_built
-										}
-									any_owned_state = {
-											dockyard > 0
-											free_building_slots = {
-													building = dockyard
-													size > 2
-													include_locked = yes
-												}
-										}
-								}
-							random_owned_controlled_state = {
-									limit = {
-											dockyard > 0
-											free_building_slots = {
-													building = dockyard
-													size > 2
-													include_locked = yes
-												}
-										}
-									add_extra_state_shared_building_slots = 2
-									add_building_construction = {
-											type = dockyard
-											level = 2
-											instant_build = yes
-										}
-								}
-							set_country_flag = naval_effort_built
-						}
-					if = {
-							limit = {
-									NOT = {
-											has_country_flag = naval_effort_built
-										}
-									NOT = {
-											any_owned_state = {
-													free_building_slots = {
-															building = dockyard
-															size > 2
-															include_locked = yes
-														}
-												}
-										}
-								}
-							random_state = {
-									limit = {
-											controller = {
-													tag = ROOT
-												}
-											free_building_slots = {
-													building = dockyard
-													size > 2
-													include_locked = yes
-												}
-										}
-									add_extra_state_shared_building_slots = 2
-									add_building_construction = {
-											type = dockyard
-											level = 2
-											instant_build = yes
-										}
-								}
-						}
-				}
-
+			}
+		}
 	}
 	focus = {
 		id = gen60_military_revise_plans
@@ -3470,72 +3336,38 @@ focus_tree = {
 		}
 		x = 38
 		y = 8
-		
-			bypass = {
-					custom_trigger_tooltip = {
-							tooltip = production_effort_tt
-							all_owned_state = {
-									free_building_slots = {
-											building = arms_factory
-											size < 1
-											include_locked = yes
-										}
-								}
-						}
+		available = {
+			NOT = {
+				has_idea = infrastructure_boost_general
+				has_idea = civilian_boost_general
+				has_idea = military_boost_general
+				has_idea = navy_boost_general
+			}
+		}
+		completion_reward = {
+			add_timed_idea = {
+				idea = military_boost_general
+				days = 180
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+					owner = {
+						num_of_military_factories > 10
+					}
 				}
-			available = {
-					NOT = {
-							has_idea = infrastructure_boost_general
-							has_idea = civilian_boost_general
-							has_idea = military_boost_general
-							has_idea = navy_boost_general
-						}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
 				}
-			complete_tooltip = {
-					add_extra_state_shared_building_slots = 1
-					add_building_construction = {
-							type = arms_factory
-							level = 1
-							instant_build = yes
-						}
-				}
-			completion_reward = {
-					add_timed_idea = {
-							idea = military_boost_general
-							days = 180
-						}
-					random_owned_controlled_state = {
-							limit = {
-									free_building_slots = {
-											building = arms_factory
-											size > 0
-											include_locked = yes
-										}
-									OR = {
-											is_in_home_area = yes
-											NOT = {
-													owner = {
-															any_owned_state = {
-																	free_building_slots = {
-																			building = arms_factory
-																			size > 0
-																			include_locked = yes
-																		}
-																	is_in_home_area = yes
-																}
-														}
-												}
-										}
-								}
-							add_extra_state_shared_building_slots = 1
-							add_building_construction = {
-									type = arms_factory
-									level = 1
-									instant_build = yes
-								}
-						}
-				}
-
+			}
+		}
 	}
 	focus = {
 		id = gen60_mil_radar
@@ -3547,17 +3379,15 @@ focus_tree = {
 		}
 		x = 40
 		y = 9
-		
-			completion_reward = {
-					capital_scope = {
-							add_building_construction = {
-									type = radar_station
-									level = 2
-									instant_build = yes
-								}
-						}
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_building_construction = {
+					type = radar_station
+					level = 2
+					instant_build = yes
 				}
-
+			}
+		}
 	}
 	focus = {
 		id = gen60_military_increase_spending
@@ -3568,76 +3398,43 @@ focus_tree = {
 		}
 		x = 42
 		y = 9
-		
-			bypass = {
-					custom_trigger_tooltip = {
-							tooltip = production_effort_tt
-							all_owned_state = {
-									free_building_slots = {
-											building = arms_factory
-											size < 1
-											include_locked = yes
-										}
-								}
-						}
+		available = {
+			NOT = {
+				has_idea = infrastructure_boost_general
+				has_idea = civilian_boost_general
+				has_idea = military_boost_general
+				has_idea = navy_boost_general
+			}
+		}
+		completion_reward = {
+			add_timed_idea = {
+				idea = military_boost_general
+				days = 180
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+					owner = {
+						num_of_military_factories > 10
+					}
 				}
-			available = {
-					NOT = {
-							has_idea = infrastructure_boost_general
-							has_idea = civilian_boost_general
-							has_idea = military_boost_general
-							has_idea = navy_boost_general
-						}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
 				}
-			complete_tooltip = {
-					add_extra_state_shared_building_slots = 1
-					add_building_construction = {
-							type = arms_factory
-							level = 1
-							instant_build = yes
-						}
-				}
-			completion_reward = {
-					add_timed_idea = {
-							idea = military_boost_general
-							days = 180
-						}
-					random_owned_controlled_state = {
-							limit = {
-									free_building_slots = {
-											building = arms_factory
-											size > 0
-											include_locked = yes
-										}
-									OR = {
-											is_in_home_area = yes
-											NOT = {
-													owner = {
-															any_owned_state = {
-																	free_building_slots = {
-																			building = arms_factory
-																			size > 0
-																			include_locked = yes
-																		}
-																	is_in_home_area = yes
-																}
-														}
-												}
-										}
-								}
-							add_extra_state_shared_building_slots = 1
-							add_building_construction = {
-									type = arms_factory
-									level = 1
-									instant_build = yes
-								}
-						}
-				}
-
+			}
+		}
 	}
 	focus = {
 		id = gen60_military_industrial_complex
 		icon = GFX_goal_generic_construct_mil_factory
+		search_filters = {IC_FILTER}
 		cost = 10.00
 		prerequisite = {
 			focus = gen60_g_g_2
@@ -3646,76 +3443,43 @@ focus_tree = {
 		}
 		x = 42
 		y = 8
-		
-			bypass = {
-					custom_trigger_tooltip = {
-							tooltip = production_effort_tt
-							all_owned_state = {
-									free_building_slots = {
-											building = arms_factory
-											size < 1
-											include_locked = yes
-										}
-								}
-						}
+		available = {
+			NOT = {
+				has_idea = infrastructure_boost_general
+				has_idea = civilian_boost_general
+				has_idea = military_boost_general
+				has_idea = navy_boost_general
+			}
+		}
+		completion_reward = {
+			add_timed_idea = {
+				idea = military_boost_general
+				days = 180
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+					owner = {
+						num_of_military_factories > 10
+					}
 				}
-			available = {
-					NOT = {
-							has_idea = infrastructure_boost_general
-							has_idea = civilian_boost_general
-							has_idea = military_boost_general
-							has_idea = navy_boost_general
-						}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
 				}
-			complete_tooltip = {
-					add_extra_state_shared_building_slots = 1
-					add_building_construction = {
-							type = arms_factory
-							level = 1
-							instant_build = yes
-						}
-				}
-			completion_reward = {
-					add_timed_idea = {
-							idea = military_boost_general
-							days = 180
-						}
-					random_owned_controlled_state = {
-							limit = {
-									free_building_slots = {
-											building = arms_factory
-											size > 0
-											include_locked = yes
-										}
-									OR = {
-											is_in_home_area = yes
-											NOT = {
-													owner = {
-															any_owned_state = {
-																	free_building_slots = {
-																			building = arms_factory
-																			size > 0
-																			include_locked = yes
-																		}
-																	is_in_home_area = yes
-																}
-														}
-												}
-										}
-								}
-							add_extra_state_shared_building_slots = 1
-							add_building_construction = {
-									type = arms_factory
-									level = 1
-									instant_build = yes
-								}
-						}
-				}
-
+			}
+		}
 	}
 	focus = {
 		id = gen60_interreporters
 		icon = GFX_un
+		search_filters = {IC_FILTER}
 		cost = 2.00
 		prerequisite = {
 			focus = gen60_fakenews
@@ -3739,6 +3503,7 @@ focus_tree = {
 	focus = {
 		id = gen60_stronk_banks
 		icon = GFX_focus_generic_self_management
+		search_filters = {IC_FILTER}
 		cost = 10.00
 		prerequisite = {
 			focus = gen60_reduce_med_costs
@@ -3771,6 +3536,7 @@ focus_tree = {
 	focus = {
 		id = gen60_techno_healthcare
 		icon = GFX_focus_research2
+		search_filters = {IC_FILTER}
 		cost = 10.00
 		prerequisite = {
 			focus = gen60_schools
@@ -3803,6 +3569,7 @@ focus_tree = {
 	focus = {
 		id = gen60_5_year_plan
 		icon = GFX_FactoryTown
+		search_filters = {IC_FILTER}
 		cost = 10.00
 		prerequisite = {
 			focus = gen60_healthcare_1

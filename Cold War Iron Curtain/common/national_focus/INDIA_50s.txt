@@ -11,6 +11,7 @@ focus_tree = {
 	focus = {
 		id = IND_The_Indian_Economy
 		icon = GFX_PileofMoney
+		search_filters = {IC_FILTER}
 		cost = 10.00
 		x = 11
 		y = 0
@@ -52,18 +53,21 @@ focus_tree = {
 	focus = {
 		id = IND_The_Karachi_Agreement
 		icon = GFX_Commie_Treaty
+		search_filters = {IC_FILTER}
 		cost = 10.00
 		x = 29
 		y = 0
 		completion_reward = {
-			 news_event = karachi.1
+			 country_event = karachi.1
 			 add_political_power = 100
 		}
 	}
 	focus = {
 		id = IND_A_Unified_National_Identity
 		icon = GFX_a_strong_united_nation
+		search_filters = {IC_FILTER}
 		cost = 10.00
+		offset = { trigger = { always = yes } y = -1 }
 		x = 22
 		y = 13
 		prerequisite = {
@@ -79,9 +83,11 @@ focus_tree = {
 	focus = {
 		id = IND_Embrace_Freedom_of_Religion
 		icon = GFX_Freedom
+		search_filters = {IC_FILTER}
 		cost = 10.00
 		x = 38
 		y = 15
+		offset = { trigger = { always = yes } y = -1 }
 		prerequisite = {
 			focus = IND_A_Government_For_The_Workers
 		}
@@ -92,7 +98,9 @@ focus_tree = {
 	focus = {
 		id = IND_The_Elections_of_1957
 		icon = GFX_Adopt_Enhanced_Majority_System
+		search_filters = {IC_FILTER}
 		cost = 10.00
+		offset = { trigger = { always = yes } y = -1 }
 		x = 25
 		y = 29
 		available = {
@@ -102,9 +110,11 @@ focus_tree = {
 	focus = {
 		id = IND_Condemn_French_Colonialism
 		icon = GFX_goal_FRA_Crush
+		search_filters = {IC_FILTER}
 		cost = 10.00
 		x = 35
 		y = 37
+		offset = { trigger = { always = yes } y = -1 }
 		prerequisite = {
 			focus = IND_The_Global_Revolution
 		}
@@ -125,7 +135,8 @@ focus_tree = {
 	}
 	focus = {
 		id = IND_The_Indian_Armed_Forces
-		icon = GFX_goal_unknown
+		icon = GFX_Indian_Armed_Forces
+		search_filters = {IC_FILTER}
 		cost = 10.00
 		x = 43
 		y = 0
@@ -138,6 +149,7 @@ focus_tree = {
 	focus = {
 		id = IND_Attract_Foriegn_Investments
 		icon = GFX_Foriegn_Investment
+		search_filters = {IC_FILTER}
 		cost = 10.00
 		prerequisite = {
 			focus = IND_The_Indian_Economy
@@ -151,6 +163,7 @@ focus_tree = {
 	focus = {
 		id = IND_Soviet_Interests
 		icon = GFX_goal_SOV_deal
+		search_filters = {IC_FILTER}
 		cost = 10.00
 		prerequisite = {
 			focus = IND_Attract_Foriegn_Investments
@@ -170,6 +183,7 @@ focus_tree = {
 	focus = {
 		id = IND_Purchase_Soviet_Industrial_Equipment
 		icon = GFX_SOV_Technical_Aid
+		search_filters = {IC_FILTER}
 		cost = 10.00
 		prerequisite = {
 			focus = IND_Soviet_Interests
@@ -187,6 +201,7 @@ focus_tree = {
 	focus = {
 		id = IND_Recieve_Soviet_Loans
 		icon = GFX_Soviet_Loans
+		search_filters = {IC_FILTER}
 		cost = 10.00
 		prerequisite = {
 			focus = IND_Soviet_Interests
@@ -203,6 +218,7 @@ focus_tree = {
 	focus = {
 		id = IND_Railway_Nationalization
 		icon = GFX_FocusBuildRailroads
+		search_filters = {IC_FILTER}
 		cost = 10.00
 		prerequisite = {
 			focus = IND_Recieve_Soviet_Loans
@@ -225,6 +241,7 @@ focus_tree = {
 	focus = {
 		id = IND_Soviet_Industrial_Aid
 		icon = GFX_Soviet_Investments
+		search_filters = {IC_FILTER}
 		cost = 10.00
 		prerequisite = {
 			focus = IND_Soviet_Interests
@@ -241,6 +258,7 @@ focus_tree = {
 	focus = {
 		id = IND_Soviet_Volunteer_Economic_Advisory_Group
 		icon = GFX_Soviet_Industrial_Aid
+		search_filters = {IC_FILTER}
 		cost = 10.00
 		prerequisite = {
 			focus = IND_Soviet_Industrial_Aid
@@ -257,6 +275,7 @@ focus_tree = {
 	focus = {
 		id = IND_Soviet_Trade_Agreements
 		icon = GFX_Soviet_Relations
+		search_filters = {IC_FILTER}
 		cost = 10.00
 		prerequisite = {
 			focus = IND_Soviet_Volunteer_Economic_Advisory_Group
@@ -273,7 +292,8 @@ focus_tree = {
 	}
 	focus = {
 		id = IND_Nationwide_Development_Program
-		icon = GFX_Cement
+		icon = GFX_Centrally_Planned_Economy
+		search_filters = {IC_FILTER}
 		cost = 10.00
 		prerequisite = {
 			focus = IND_Attract_Foriegn_Investments
@@ -317,7 +337,8 @@ focus_tree = {
 	}
 	focus = {
 		id = IND_Develop_Delhi
-		icon = GFX_goal_unknown
+		icon = GFX_Cement
+		search_filters = {IC_FILTER}
 		cost = 10.00
 		prerequisite = {
 			focus = IND_Nationwide_Development_Program
@@ -342,7 +363,8 @@ focus_tree = {
 	}
 	focus = {
 		id = IND_Develop_Hyderabad
-		icon = GFX_goal_unknown
+		icon = GFX_FactoryTown
+		search_filters = {IC_FILTER}
 		cost = 10.00
 		prerequisite = {
 			focus = IND_Nationwide_Development_Program
@@ -367,7 +389,8 @@ focus_tree = {
 	}
 	focus = {
 		id = IND_Develop_Kashmir
-		icon = GFX_goal_unknown
+		icon = GFX_Agricultural_Subsidies
+		search_filters = {IC_FILTER}
 		cost = 10.00
 		prerequisite = {
 			focus = IND_Develop_Hyderabad
@@ -396,6 +419,7 @@ focus_tree = {
 	focus = {
 		id = IND_Rural_Electrification_Program
 		icon = GFX_1st_Electric_Program
+		search_filters = {IC_FILTER}
 		cost = 10.00
 		prerequisite = {
 			focus = IND_Develop_Kashmir
@@ -468,7 +492,8 @@ focus_tree = {
 
 	focus = {
 		id = IND_Develop_Assam
-		icon = GFX_goal_unknown
+		icon = GFX_Cash_and_Carry
+		search_filters = {IC_FILTER}
 		cost = 10.00
 		prerequisite = {
 			focus = IND_Nationwide_Development_Program
@@ -493,7 +518,8 @@ focus_tree = {
 	}
 	focus = {
 		id = IND_Develop_Kerala
-		icon = GFX_goal_unknown
+		icon = GFX_Generic_Construction
+		search_filters = {IC_FILTER}
 		cost = 10.00
 		prerequisite = {
 			focus = IND_Develop_Assam
@@ -522,6 +548,7 @@ focus_tree = {
 	focus = {
 		id = IND_Establish_the_Military_Industrial_Complex
 		icon = GFX_Military_Mobilisation
+		search_filters = {IC_FILTER}
 		cost = 10.00
 		prerequisite = {
 			focus = IND_Develop_Kerala
@@ -571,6 +598,7 @@ focus_tree = {
 	focus = {
 		id = IND_Rural_Development
 		icon = GFX_Focus_RuralHousing
+		search_filters = {IC_FILTER}
 		cost = 10.00
 		prerequisite = {
 			focus = IND_Establish_the_Military_Industrial_Complex
@@ -587,6 +615,7 @@ focus_tree = {
 	focus = {
 		id = IND_Invest_in_the_Private_Sector
 		icon = GFX_InvestInNatal
+		search_filters = {IC_FILTER}
 		cost = 10.00
 		prerequisite = {
 			focus = IND_Develop_Kerala
@@ -602,6 +631,7 @@ focus_tree = {
 	focus = {
 		id = IND_Manufacturing_Subsidies
 		icon = GFX_FocusExpandTextileIndustry
+		search_filters = {IC_FILTER}
 		cost = 10.00
 		prerequisite = {
 			focus = IND_Establish_the_Military_Industrial_Complex
@@ -618,6 +648,7 @@ focus_tree = {
 	focus = {
 		id = IND_American_Investors
 		icon = GFX_goal_USA_deal
+		search_filters = {IC_FILTER}
 		cost = 10.00
 		prerequisite = {
 			focus = IND_Attract_Foriegn_Investments
@@ -638,6 +669,7 @@ focus_tree = {
 	focus = {
 		id = IND_Apply_for_the_Point_Program
 		icon = GFX_focus_Urban_Development
+		search_filters = {IC_FILTER}
 		cost = 10.00
 		prerequisite = {
 			focus = IND_American_Investors
@@ -658,8 +690,10 @@ focus_tree = {
 		}
 	focus = {
 		id = IND_The_Ghosh_Administration
-		icon = GFX_goal_unknown
+		icon = GFX_India_RSS
+		search_filters = {IC_FILTER}
 		cost = 10.00
+		offset = { trigger = { always = yes } y = -1 }
 		prerequisite = {
 			focus = IND_The_Elections_of_1957
 		}
@@ -672,7 +706,9 @@ focus_tree = {
 	focus = {
 		id = IND_Entrench_the_RSS_in_the_Bureacracy
 		icon = GFX_GenericPolitical
+		search_filters = {IC_FILTER}
 		cost = 10.00
+		offset = { trigger = { always = yes } y = -1 }
 		prerequisite = {
 			focus = IND_The_Ghosh_Administration
 		}
@@ -685,6 +721,7 @@ focus_tree = {
 	focus = {
 		id = IND_Apply_for_Marshall_Plan_Funding
 		icon = GFX_Tribal_Subsidies
+		search_filters = {IC_FILTER}
 		cost = 10.00
 		prerequisite = {
 			focus = IND_American_Investors
@@ -703,6 +740,7 @@ focus_tree = {
 	focus = {
 		id = IND_Invest_in_Urban_Electric_Board_Initiatives
 		icon = GFX_2nd_Electric_Program
+		search_filters = {IC_FILTER}
 		cost = 10.00
 		prerequisite = {
 			focus = IND_Apply_for_Marshall_Plan_Funding
@@ -778,8 +816,10 @@ focus_tree = {
 	}
 	focus = {
 		id = IND_Embrace_Hindutava
-		icon = GFX_goal_unknown
+		icon = GFX_focus_internal_dissent
+		search_filters = {IC_FILTER}
 		cost = 10.00
+		offset = { trigger = { always = yes } y = -1 }
 		prerequisite = {
 			focus = IND_Entrench_the_RSS_in_the_Bureacracy
 		}
@@ -792,6 +832,7 @@ focus_tree = {
 	focus = {
 		id = IND_American_Foriegn_Capital
 		icon = GFX_USA_con_companies
+		search_filters = {IC_FILTER}
 		cost = 10.00
 		prerequisite = {
 			focus = IND_American_Investors
@@ -805,6 +846,7 @@ focus_tree = {
 	focus = {
 		id = IND_Improve_Transport_and_Trade_Logistics
 		icon = GFX_FocusBuildRoads
+		search_filters = {IC_FILTER}
 		cost = 10.00
 		prerequisite = {
 			focus = IND_Apply_for_Marshall_Plan_Funding
@@ -841,6 +883,7 @@ focus_tree = {
 	focus = {
 		id = IND_American_Trade_Agreement
 		icon = GFX_goal_USA_america_economic_miracle
+		search_filters = {IC_FILTER}
 		cost = 10.00
 		prerequisite = {
 			focus = IND_Invest_in_Urban_Electric_Board_Initiatives
@@ -858,6 +901,7 @@ focus_tree = {
 	focus = {
 		id = IND_Tripura_Merger_Agreement
 		icon = GFX_Room_Meeting
+		search_filters = {IC_FILTER}
 		cost = 10.00
 		prerequisite = {
 			focus = IND_The_Karachi_Agreement
@@ -865,7 +909,7 @@ focus_tree = {
 		x = 27
 		y = 1
 		completion_reward = {
-			news_event = Tripura.1
+			country_event = Tripura.1
 			870 = {
 				add_core_of = RAJ
 			}
@@ -874,6 +918,7 @@ focus_tree = {
 	focus = {
 		id = IND_Execute_Nathuram_Godse
 		icon = GFX_reign_of_terror
+		search_filters = {IC_FILTER}
 		cost = 10.00
 		prerequisite = {
 			focus = IND_The_Karachi_Agreement
@@ -881,12 +926,13 @@ focus_tree = {
 		x = 31
 		y = 1
 		completion_reward {
-			news_event = india.50
+			country_event = india.50
 		}
 	}
 	focus = {
 		id = IND_The_New_Constitution
 		icon = GFX_Paper
+		search_filters = {IC_FILTER}
 		cost = 10.00
 		prerequisite = {
 			focus = IND_Tripura_Merger_Agreement
@@ -904,6 +950,7 @@ focus_tree = {
 	focus = {
 		id = IND_Central_Reserve_Police_Force_Act
 		icon = GFX_police
+		search_filters = {IC_FILTER}
 		cost = 10.00
 		prerequisite = {
 			focus = IND_The_New_Constitution
@@ -951,6 +998,7 @@ focus_tree = {
 	focus = {
 		id = IND_Declare_the_Republic_of_India
 		icon = GFX_goal_unknown
+		search_filters = {IC_FILTER}
 		cost = 10.00
 		prerequisite = {
 			focus = IND_Central_Reserve_Police_Force_Act
@@ -965,6 +1013,7 @@ focus_tree = {
 	focus = {
 		id = IND_Establish_the_Election_Commission
 		icon = GFX_Adopt_Enhanced_Majority_System
+		search_filters = {IC_FILTER}
 		cost = 10.00
 		prerequisite = {
 			focus = IND_Declare_the_Republic_of_India
@@ -978,7 +1027,8 @@ focus_tree = {
 	}
 	focus = {
 		id = IND_The_Liaqaut_Nehru_Pact
-		icon = GFX_goal_unknown
+		icon = GFX_delhi_pact
+		search_filters = {IC_FILTER}
 		cost = 10.00
 		prerequisite = {
 			focus = IND_Declare_the_Republic_of_India
@@ -986,7 +1036,7 @@ focus_tree = {
 		x = 31
 		y = 5
 		completion_reward = {
-			news_event = INDOPAK.1
+			country_event = india.52
 			add_stability = 0.02
 			PAK = {
 				add_stability = 0.02
@@ -996,6 +1046,7 @@ focus_tree = {
 	focus = {
 		id = IND_Indo_Nepal_Treaty_of_Friendship_and_Peace
 		icon = GFX_goal_unknown
+		search_filters = {IC_FILTER}
 		cost = 10.00
 		prerequisite = {
 			focus = IND_The_Liaqaut_Nehru_Pact
@@ -1023,7 +1074,8 @@ focus_tree = {
 	}
 	focus = {
 		id = IND_Recover_from_the_Assam_Tibet_Earthquake
-		icon = GFX_goal_unknown
+		icon = GFX_Develop_Assam
+		search_filters = {IC_FILTER}
 		cost = 10.00
 		prerequisite = {
 			focus = IND_Indo_Nepal_Treaty_of_Friendship_and_Peace
@@ -1048,7 +1100,8 @@ focus_tree = {
 	}
 	focus = {
 		id = IND_The_Andaman_and_Nicobar_Islands
-		icon = GFX_goal_unknown
+		icon = GFX_goal_ENG_deal
+		search_filters = {IC_FILTER}
 		cost = 10.00
 		prerequisite = {
 			focus = IND_Indo_Nepal_Treaty_of_Friendship_and_Peace
@@ -1062,7 +1115,8 @@ focus_tree = {
 	}
 	focus = {
 		id = IND_Host_the_First_Asian_Games
-		icon = GFX_goal_unknown
+		icon = GFX_tv
+		search_filters = {IC_FILTER}
 		cost = 10.00
 		prerequisite = {
 			focus = IND_Recover_from_the_Assam_Tibet_Earthquake
@@ -1079,6 +1133,7 @@ focus_tree = {
 	focus = {
 		id = IND_The_First_General_Election
 		icon = GFX_Adopt_Enhanced_Majority_System
+		search_filters = {IC_FILTER}
 		cost = 10.00
 
 		x = 29
@@ -1089,7 +1144,8 @@ focus_tree = {
 	}
 	focus = {
 		id = IND_Socialist_Party_Victory
-		icon = GFX_goal_unknown
+		icon = GFX_Indian_Socialist_Party
+		search_filters = {IC_FILTER}
 		cost = 10.00
 		prerequisite = {
 			focus = IND_The_First_General_Election
@@ -1102,7 +1158,8 @@ focus_tree = {
 	}
 	focus = {
 		id = IND_Indian_National_Congress_Victory
-		icon = GFX_goal_unknown
+		icon = GFX_Indian_National_Congress
+		search_filters = {IC_FILTER}
 		cost = 10.00
 		prerequisite = {
 			focus = IND_The_First_General_Election
@@ -1114,24 +1171,13 @@ focus_tree = {
 		}	
 	}
 	focus = {
-		id = IND_The_Nehru_Administration
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = IND_Indian_National_Congress_Victory
-		}
-		x = 29
-		y = 11
-		available = {
-			always = no
-		}	
-	}
-	focus = {
 		id = IND_Reform_the_Caste_System
 		icon = GFX_TRV_caste_system_reform
+		search_filters = {IC_FILTER}
 		cost = 10.00
+		offset = { trigger = { always = yes } y = -1 }
 		prerequisite = {
-			focus = IND_The_Nehru_Administration
+			focus = IND_Indian_National_Congress_Victory
 		}
 		x = 31
 		y = 12
@@ -1143,9 +1189,11 @@ focus_tree = {
 	focus = {
 		id = IND_Womens_Rights
 		icon = GFX_femicon
+		search_filters = {IC_FILTER}
 		cost = 10.00
+		offset = { trigger = { always = yes } y = -1 }
 		prerequisite = {
-			focus = IND_The_Nehru_Administration
+			focus = IND_Indian_National_Congress_Victory
 		}
 		x = 27
 		y = 12
@@ -1159,7 +1207,9 @@ focus_tree = {
 	focus = {
 		id = IND_Nationwide_Educational_Investments
 		icon = GFX_Universities
+		search_filters = {IC_FILTER}
 		cost = 10.00
+		offset = { trigger = { always = yes } y = -1 }
 		prerequisite = {
 			focus = IND_Reform_the_Caste_System
 		}
@@ -1181,7 +1231,9 @@ focus_tree = {
 	focus = {
 		id = IND_Establish_the_Indian_Institute_of_Technology
 		icon = GFX_TechnologicalSupremacy
+		search_filters = {IC_FILTER}
 		cost = 10.00
+		offset = { trigger = { always = yes } y = -1 }
 		prerequisite = {
 			focus = IND_Womens_Rights
 		}
@@ -1197,7 +1249,9 @@ focus_tree = {
 	focus = {
 		id = IND_Industrial_Investments
 		icon = GFX_InvestInNatal
+		search_filters = {IC_FILTER}
 		cost = 10.00
+		offset = { trigger = { always = yes } y = -1 }
 		prerequisite = {
 			focus = IND_Establish_the_Indian_Institute_of_Technology
 		}
@@ -1217,7 +1271,8 @@ focus_tree = {
 	}
 	focus = {
 		id = IND_The_Indian_Air_Force
-		icon = GFX_goal_unknown
+		icon = GFX_Indian_Airforce
+		search_filters = {IC_FILTER}
 		cost = 10.00
 		prerequisite = {
 			focus = IND_The_Indian_Armed_Forces
@@ -1229,8 +1284,9 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = IND_Purchase_Dassault_Mystère_IV 
+		id = IND_Purchase_Dassault_Mystere_IV 
 		icon = GFX_dassaultf1
+		search_filters = {IC_FILTER}
 		cost = 10.00
 		prerequisite = {
 			focus = IND_The_Indian_Air_Force
@@ -1247,8 +1303,10 @@ focus_tree = {
 	}
 	focus = {
 		id = IND_The_Naboordiripad_Administration
-		icon = GFX_goal_unknown
+		icon = GFX_Indian_Communist_Party
+		search_filters = {IC_FILTER}
 		cost = 10.00
+		offset = { trigger = { always = yes } y = -1 }
 		prerequisite = {
 			focus = IND_The_Elections_of_1957
 		}
@@ -1261,7 +1319,9 @@ focus_tree = {
 	focus = {
 		id = IND_Collectivize_Agriculture
 		icon = GFX_Agrarian_Collectivization
+		search_filters = {IC_FILTER}
 		cost = 10.00
+		offset = { trigger = { always = yes } y = -1 }
 		prerequisite = {
 			focus = IND_The_Naboordiripad_Administration
 		}
@@ -1274,6 +1334,7 @@ focus_tree = {
 	focus = {
 		id = IND_Import_British_Planes
 		icon = GFX_Focus_iraqi_britian_jet_trade
+		search_filters = {IC_FILTER}
 		cost = 10.00
 		prerequisite = {
 			focus = IND_The_Indian_Air_Force
@@ -1291,12 +1352,13 @@ focus_tree = {
 	focus = {
 		id = IND_Develop_Airbases
 		icon = GFX_goal_generic_AirBases
+		search_filters = {IC_FILTER}
 		cost = 10.00
 		prerequisite = {
 			focus = IND_Import_British_Planes
 		}
 		prerequisite = {
-			focus = IND_Purchase_Dassault_Mystère_IV 
+			focus = IND_Purchase_Dassault_Mystere_IV 
 		}
 		x = 36
 		y = 3
@@ -1355,6 +1417,7 @@ focus_tree = {
 	focus = {
 		id = IND_Expand_Hindustan_Aeronautics_Limited
 		icon = GFX_Expand_Airfields
+		search_filters = {IC_FILTER}
 		cost = 10.00
 		prerequisite = {
 			focus = IND_Develop_Airbases
@@ -1382,7 +1445,8 @@ focus_tree = {
 	}
 	focus = {
 		id = IND_Communist_Party_of_India_Victory
-		icon = GFX_goal_unknown
+		icon = GFX_Indian_Communist_Party
+		search_filters = {IC_FILTER}
 		cost = 10.00
 		prerequisite = {
 			focus = IND_The_First_General_Election
@@ -1393,25 +1457,15 @@ focus_tree = {
 			always = no
 		}
 	}
-	focus = {
-		id = IND_The_Dange_Administration
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = IND_Communist_Party_of_India_Victory
-		}
-		x = 38
-		y = 11
-		available = {
-			always = no
-		}
-	}
+
 	focus = {
 		id = IND_Demilitarized_Revolutionaries
 		icon = GFX_Cut_Funding
+		search_filters = {IC_FILTER}
 		cost = 10.00
+		offset = { trigger = { always = yes } y = -1 }
 		prerequisite = {
-			focus = IND_The_Dange_Administration
+			focus = IND_Communist_Party_of_India_Victory
 		}
 		x = 36
 		y = 12
@@ -1422,7 +1476,9 @@ focus_tree = {
 	focus = {
 		id = IND_Reformed_Leadership
 		icon = GFX_Leading_Torch
+		search_filters = {IC_FILTER}
 		cost = 10.00
+		offset = { trigger = { always = yes } y = -1 }
 		prerequisite = {
 			focus = IND_Demilitarized_Revolutionaries
 		}
@@ -1438,9 +1494,11 @@ focus_tree = {
 	focus = {
 		id = IND_Reward_the_Workers_of_Delhi
 		icon = GFX_Migrant_Workers
+		search_filters = {IC_FILTER}
 		cost = 10.00
+		offset = { trigger = { always = yes } y = -1 }
 		prerequisite = {
-			focus = IND_The_Dange_Administration
+			focus = IND_Communist_Party_of_India_Victory
 		}
 		x = 40
 		y = 12
@@ -1463,7 +1521,9 @@ focus_tree = {
 	focus = {
 		id = IND_Establish_Workers_Unions
 		icon = GFX_Workers_Councils
+		search_filters = {IC_FILTER}
 		cost = 10.00
+		offset = { trigger = { always = yes } y = -1 }
 		prerequisite = {
 			focus = IND_Reward_the_Workers_of_Delhi
 		}
@@ -1476,7 +1536,9 @@ focus_tree = {
 	focus = {
 		id = IND_A_Government_For_The_Workers
 		icon = GFX_Pro_Working_Class
+		search_filters = {IC_FILTER}
 		cost = 10.00
+		offset = { trigger = { always = yes } y = -1 }
 		prerequisite = {
 			focus = IND_Establish_Workers_Unions
 		}
@@ -1492,7 +1554,9 @@ focus_tree = {
 	focus = {
 		id = IND_Crush_the_Hyderabad_Reactionaries
 		icon = GFX_Sacrifce_to_Progress
+		search_filters = {IC_FILTER}
 		cost = 10.00
+		offset = { trigger = { always = yes } y = -1 }
 		prerequisite = {
 			focus = IND_A_Government_For_The_Workers
 		}
@@ -1504,7 +1568,8 @@ focus_tree = {
 	}
 	focus = {
 		id = IND_The_Indian_Army
-		icon = GFX_goal_unknown
+		icon = GFX_Indian_Army
+		search_filters = {IC_FILTER}
 		cost = 10.00
 		prerequisite = {
 			focus = IND_The_Indian_Armed_Forces
@@ -1518,6 +1583,7 @@ focus_tree = {
 	focus = {
 		id = IND_Expand_the_Ordnance_Factory_Board
 		icon = GFX_Generic_Arab_Industry
+		search_filters = {IC_FILTER}
 		cost = 10.00
 		prerequisite = {
 			focus = IND_The_Indian_Army
@@ -1590,7 +1656,9 @@ focus_tree = {
 	focus = {
 		id = IND_Remove_the_Remnants_of_Feudalism
 		icon = GFX_microphone
+		search_filters = {IC_FILTER}
 		cost = 10.00
+		offset = { trigger = { always = yes } y = -1 }
 		prerequisite = {
 			focus = IND_A_Government_For_The_Workers
 		}
@@ -1604,7 +1672,9 @@ focus_tree = {
 	focus = {
 		id = IND_Housing_Expansion
 		icon = GFX_focus_expand_Housing
+		search_filters = {IC_FILTER}
 		cost = 10.00
+		offset = { trigger = { always = yes } y = -1 }
 		prerequisite = {
 			focus = IND_Embrace_Freedom_of_Religion
 		}
@@ -1622,6 +1692,7 @@ focus_tree = {
 	focus = {
 		id = IND_Rebuild_Our_Officer_Corp
 		icon = GFX_Army_Officers_Coup_Attempt
+		search_filters = {IC_FILTER}
 		cost = 10.00
 		prerequisite = {
 			focus = IND_The_Indian_Army
@@ -1636,6 +1707,7 @@ focus_tree = {
 	focus = {
 		id = IND_Lessons_From_World_War_2
 		icon = GFX_LessonsfromtheGreatWar
+		search_filters = {IC_FILTER}
 		cost = 10.00
 		prerequisite = {
 			focus = IND_Rebuild_Our_Officer_Corp
@@ -1654,6 +1726,7 @@ focus_tree = {
 	focus = {
 		id = IND_Establish_the_The_Defence_Research_and_Development_Organisation
 		icon = GFX_Found_IKY
+		search_filters = {IC_FILTER}
 		cost = 10.00
 		prerequisite = {
 			focus = IND_Lessons_From_World_War_2
@@ -1666,7 +1739,8 @@ focus_tree = {
 	}
 	focus = {
 		id = IND_The_Indian_Navy
-		icon = GFX_goal_unknown
+		icon = GFX_Indian_Navy
+		search_filters = {IC_FILTER}
 		cost = 10.00
 		prerequisite = {
 			focus = IND_The_Indian_Armed_Forces
@@ -1679,7 +1753,8 @@ focus_tree = {
 	}
 	focus = {
 		id = IND_Retain_British_Officers
-		icon = GFX_goal_unknown
+		icon = GFX_Mercenaries
+		search_filters = {IC_FILTER}
 		cost = 10.00
 		prerequisite = {
 			focus = IND_The_Indian_Navy
@@ -1692,7 +1767,8 @@ focus_tree = {
 	}
 	focus = {
 		id = IND_Recover_Personnel_Losses
-		icon = GFX_goal_unknown
+		icon = GFX_Recruitment
+		search_filters = {IC_FILTER}
 		cost = 10.00
 		prerequisite = {
 			focus = IND_The_Indian_Navy
@@ -1707,6 +1783,7 @@ focus_tree = {
 	focus = {
 		id = IND_Fleet_Modernization
 		icon = GFX_Skoryy_Destroyers
+		search_filters = {IC_FILTER}
 		cost = 10.00
 		prerequisite = {
 			focus = IND_Recover_Personnel_Losses
@@ -1728,6 +1805,7 @@ focus_tree = {
 	focus = {
 		id = IND_An_Indian_Carrier
 		icon = GFX_Grand_Carrier
+		search_filters = {IC_FILTER}
 		cost = 10.00
 		prerequisite = {
 			focus = IND_Fleet_Modernization
@@ -1746,6 +1824,7 @@ focus_tree = {
 	focus = {
 		id = IND_Economic_Prosperity
 		icon = GFX_Financial_Domination
+		search_filters = {IC_FILTER}
 		cost = 10.00
 		prerequisite = {
 			focus = IND_Formation_of_the_Western_Railway
@@ -1762,6 +1841,7 @@ focus_tree = {
 	focus = {
 		id = IND_Formation_of_the_Western_Railway
 		icon = GFX_canal
+		search_filters = {IC_FILTER}
 		cost = 10.00
 		prerequisite = {
 			focus = IND_Manufacturing_Subsidies
@@ -1778,25 +1858,15 @@ focus_tree = {
 			}
 		}
 	}
-	focus = {
-		id = IND_The_Narayan_Administration
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = IND_Socialist_Party_Victory
-		}
-		x = 21
-		y = 11
-		available = {
-			always = no
-		}
-	}
+
 	focus = {
 		id = IND_Erode_INC_Support
-		icon = GFX_goal_unknown
+		icon = GFX_generic_socialist_propaganda
+		search_filters = {IC_FILTER}
 		cost = 10.00
+		offset = { trigger = { always = yes } y = -1 }
 		prerequisite = {
-			focus = IND_The_Narayan_Administration
+			focus = IND_Socialist_Party_Victory
 		}
 		x = 19
 		y = 12
@@ -1814,9 +1884,11 @@ focus_tree = {
 	focus = {
 		id = IND_Empower_Unions
 		icon = GFX_Legalize_Unions
+		search_filters = {IC_FILTER}
 		cost = 10.00
+		offset = { trigger = { always = yes } y = -1 }
 		prerequisite = {
-			focus = IND_The_Narayan_Administration
+			focus = IND_Socialist_Party_Victory
 		}
 		x = 23
 		y = 12
@@ -1827,7 +1899,9 @@ focus_tree = {
 	focus = {
 		id = IND_Promote_Industrialization
 		icon = GFX_Generic_Arab_Industry
+		search_filters = {IC_FILTER}
 		cost = 10.00
+		offset = { trigger = { always = yes } y = -1 }
 		prerequisite = {
 			focus = IND_Erode_INC_Support
 		}
@@ -1845,8 +1919,10 @@ focus_tree = {
 	}
 	focus = {
 		id = IND_A_Successful_Democracy
-		icon = GFX_goal_generic_support_democracy
+		icon = GFX_Leading_Torch 
+		search_filters = {IC_FILTER}
 		cost = 10.00
+		offset = { trigger = { always = yes } y = -1 }
 		prerequisite = {
 			focus = IND_Industrial_Investments
 			focus = IND_Secular_Education_Values
@@ -1860,8 +1936,10 @@ focus_tree = {
 	}
 	focus = {
 		id = IND_Secular_Education_Values
-		icon = GFX_Enshrine_Secularism
+		icon = GFX_generic_atheist_science
+		search_filters = {IC_FILTER}
 		cost = 10.00
+		offset = { trigger = { always = yes } y = -1 }
 		prerequisite = {
 			focus = IND_Promote_Industrialization
 		}
@@ -1879,8 +1957,10 @@ focus_tree = {
 	}
 	focus = {
 		id = IND_Nationalize_Air_India
-		icon = GFX_focus_ANAAirlinerFocus
+		icon = GFX_Travel_Modernization
+		search_filters = {IC_FILTER}
 		cost = 10.00
+		offset = { trigger = { always = yes } y = -1 }
 		prerequisite = {
 			focus = IND_A_Successful_Democracy
 		}
@@ -1941,7 +2021,9 @@ focus_tree = {
 	focus = {
 		id = IND_Establish_the_State_Bank_of_India
 		icon = GFX_ReopentheStockMarkets
+		search_filters = {IC_FILTER}
 		cost = 10.00
+		offset = { trigger = { always = yes } y = -1 }
 		prerequisite = {
 			focus = IND_A_Successful_Democracy
 		}
@@ -1954,7 +2036,9 @@ focus_tree = {
 	focus = {
 		id = IND_First_Backward_Classes_Commissions
 		icon = GFX_GenericPolitical
+		search_filters = {IC_FILTER}
 		cost = 10.00
+		offset = { trigger = { always = yes } y = -1 }
 		prerequisite = {
 			focus = IND_Establish_the_State_Bank_of_India
 		}
@@ -1972,7 +2056,9 @@ focus_tree = {
 	focus = {
 		id = IND_Establish_the_Andhra_Pradesh_High_Court
 		icon = GFX_Court_Justice
+		search_filters = {IC_FILTER}
 		cost = 10.00
+		offset = { trigger = { always = yes } y = -1 }
 		prerequisite = {
 			focus = IND_First_Backward_Classes_Commissions
 			focus = IND_Anti_Communist_Rhetoric
@@ -1987,7 +2073,8 @@ focus_tree = {
 	}
 	focus = {
 		id = IND_Bharatya_Jana_Singh_Victory
-		icon = GFX_goal_unknown
+		icon = GFX_India_RSS
+		search_filters = {IC_FILTER}
 		cost = 10.00
 		prerequisite = {
 			focus = IND_The_First_General_Election
@@ -1998,28 +2085,18 @@ focus_tree = {
 			always = no
 		}
 	}
+
 	focus = {
-		id = IND_The_Mookerjee_Administration
-		icon = GFX_goal_unknown
+		id = IND_Arrest_Communist_Politicans
+		icon = GFX_OustCommunists
+		search_filters = {IC_FILTER}
 		cost = 10.00
 		prerequisite = {
 			focus = IND_Bharatya_Jana_Singh_Victory
 		}
 		x = 12
-		y = 11
-		available = {
-			always = no
-		}
-	}
-	focus = {
-		id = IND_Arrest_Communist_Politicans
-		icon = GFX_OustCommunists
-		cost = 10.00
-		prerequisite = {
-			focus = IND_The_Mookerjee_Administration
-		}
-		x = 12
 		y = 12
+		offset = { trigger = { always = yes } y = -1 }
 		completion_reward = {
 			add_ideas = gulag_politic
 		}
@@ -2027,9 +2104,11 @@ focus_tree = {
 	focus = {
 		id = IND_Crush_the_Hyderabad_Insurgency
 		icon = GFX_CrushResistance
+		search_filters = {IC_FILTER}
 		cost = 10.00
+		offset = { trigger = { always = yes } y = -1 }
 		prerequisite = {
-			focus = IND_The_Mookerjee_Administration
+			focus = IND_Bharatya_Jana_Singh_Victory
 		}
 		x = 15
 		y = 12
@@ -2044,9 +2123,11 @@ focus_tree = {
 	focus = {
 		id = IND_Ban_the_Indian_Communist_Party
 		icon = GFX_Anti_Communist
+		search_filters = {IC_FILTER}
 		cost = 10.00
+		offset = { trigger = { always = yes } y = -1 }
 		prerequisite = {
-			focus = IND_The_Mookerjee_Administration
+			focus = IND_Bharatya_Jana_Singh_Victory
 		}
 		x = 9
 		y = 12
@@ -2057,7 +2138,9 @@ focus_tree = {
 	focus = {
 		id = IND_Nationalize_Labor_Unions
 		icon = GFX_SP_focus_trade_unions
+		search_filters = {IC_FILTER}
 		cost = 10.00
+		offset = { trigger = { always = yes } y = -1 }
 		prerequisite = {
 			focus = IND_Ban_the_Indian_Communist_Party
 		}
@@ -2073,7 +2156,9 @@ focus_tree = {
 	focus = {
 		id = IND_Increase_the_Military_Budget
 		icon = GFX_Military_Mobilisation
+		search_filters = {IC_FILTER}
 		cost = 10.00
+		offset = { trigger = { always = yes } y = -1 }
 		prerequisite = {
 			focus = IND_Arrest_Communist_Politicans
 		}
@@ -2089,7 +2174,9 @@ focus_tree = {
 	focus = {
 		id = IND_Diplomatic_Offensive
 		icon = GFX_TheBigPush
+		search_filters = {IC_FILTER}
 		cost = 10.00
+		offset = { trigger = { always = yes } y = -1 }
 		prerequisite = {
 			focus = IND_Increase_the_Military_Budget
 		}
@@ -2152,8 +2239,10 @@ focus_tree = {
 	}
 	focus = {
 		id = IND_Recall_our_Diiplomats_from_Pakistan
-		icon = GFX_goal_unknown
+		icon = GFX_Anti_Pakistan_Rhetoric
+		search_filters = {IC_FILTER}
 		cost = 10.00
+		offset = { trigger = { always = yes } y = -1 }
 		prerequisite = {
 			focus = IND_Diplomatic_Offensive
 		}
@@ -2178,7 +2267,9 @@ focus_tree = {
 	focus = {
 		id = IND_Reinforce_the_Chinese_Borders
 		icon = GFX_Anti_Aircraft
+		search_filters = {IC_FILTER}
 		cost = 10.00
+		offset = { trigger = { always = yes } y = -1 }
 		prerequisite = {
 			focus = IND_Diplomatic_Offensive
 		}
@@ -2201,7 +2292,9 @@ focus_tree = {
 	focus = {
 		id = IND_Support_the_KMT_in_Burma
 		icon = GFX_goal_CHI_deal
+		search_filters = {IC_FILTER}
 		cost = 10.00
+		offset = { trigger = { always = yes } y = -1 }
 		prerequisite = {
 			focus = IND_Diplomatic_Offensive
 		}
@@ -2219,8 +2312,10 @@ focus_tree = {
 	}
 	focus = {
 		id = IND_Occupy_Kashmir
-		icon = GFX_goal_unknown
+		icon = GFX_Occupy_Kashmir
+		search_filters = {IC_FILTER}
 		cost = 10.00
+		offset = { trigger = { always = yes } y = -1 }
 		prerequisite = {
 			focus = IND_Recall_our_Diiplomats_from_Pakistan
 		}
@@ -2239,8 +2334,10 @@ focus_tree = {
 	}
 	focus = {
 		id = IND_The_McMahon_Line
-		icon = GFX_goal_unknown
+		icon = GFX_Crush_PRC
+		search_filters = {IC_FILTER}
 		cost = 10.00
+		offset = { trigger = { always = yes } y = -1 }
 		prerequisite = {
 			focus = IND_Support_the_KMT_in_Burma
 		}
@@ -2268,7 +2365,9 @@ focus_tree = {
 	focus = {
 		id = IND_Anti_Communist_Rhetoric
 		icon = GFX_Communist_Repression_2
+		search_filters = {IC_FILTER}
 		cost = 10.00
+		offset = { trigger = { always = yes } y = -1 }
 		prerequisite = {
 			focus = IND_Occupy_Kashmir
 		}
@@ -2299,7 +2398,9 @@ focus_tree = {
 	focus = {
 		id = IND_Agricultural_Modernization_Efforts
 		icon = GFX_Agricultural_Modernization
+		search_filters = {IC_FILTER}
 		cost = 10.00
+		offset = { trigger = { always = yes } y = -1 }
 		prerequisite = {
 			focus = IND_Nationalize_Resources
 		}
@@ -2336,7 +2437,9 @@ focus_tree = {
 	focus = {
 		id = IND_Nationalize_Resources
 		icon = GFX_Seize_Industry
+		search_filters = {IC_FILTER}
 		cost = 10.00
+		offset = { trigger = { always = yes } y = -1 }
 		prerequisite = {
 			focus = IND_Embrace_Freedom_of_Religion
 		}
@@ -2351,8 +2454,10 @@ focus_tree = {
 	}
 	focus = {
 		id = IND_Decry_Portugese_Imperialism
-		icon = GFX_goal_unknown
+		icon = GFX_focus_SAF_colonialist_crusade
+		search_filters = {IC_FILTER}
 		cost = 10.00
+		offset = { trigger = { always = yes } y = -1 }
 		prerequisite = {
 			focus = IND_Establish_the_Andhra_Pradesh_High_Court
 		}
@@ -2376,8 +2481,10 @@ focus_tree = {
 	}
 	focus = {
 		id = IND_Annex_Nagar_Haveli
-		icon = GFX_goal_unknown
+		icon = GFX_HeavyStrike
+		search_filters = {IC_FILTER}
 		cost = 10.00
+		offset = { trigger = { always = yes } y = -1 }
 		prerequisite = {
 			focus = IND_Establish_the_Andhra_Pradesh_High_Court
 		}
@@ -2394,7 +2501,9 @@ focus_tree = {
 	focus = {
 		id = IND_Establish_the_Bombay_Eletrical_Board
 		icon = GFX_1st_Electric_Program
+		search_filters = {IC_FILTER}
 		cost = 10.00
+		offset = { trigger = { always = yes } y = -1 }
 		prerequisite = {
 			focus = IND_Annex_Nagar_Haveli
 		}
@@ -2418,8 +2527,10 @@ focus_tree = {
 
 	focus = {
 		id = IND_The_Hindu_Code_Bills
-		icon = GFX_goal_unknown
+		icon = GFX_TheDebate
+		search_filters = {IC_FILTER}
 		cost = 10.00
+		offset = { trigger = { always = yes } y = -1 }
 		prerequisite = {
 			focus = IND_Establish_the_Bombay_Eletrical_Board
 		}
@@ -2432,8 +2543,10 @@ focus_tree = {
 	}
 	focus = {
 		id = IND_The_Uniform_Civil_Code
-		icon = GFX_goal_unknown
+		icon = GFX_Business_Bills
+		search_filters = {IC_FILTER}
 		cost = 10.00
+		offset = { trigger = { always = yes } y = -1 }
 		prerequisite = {
 			focus = IND_The_Hindu_Code_Bills
 		}
@@ -2447,7 +2560,9 @@ focus_tree = {
 	focus = {
 		id = IND_The_State_Reorganization_Act
 		icon = GFX_FocusFairTrials
+		search_filters = {IC_FILTER}
 		cost = 10.00
+		offset = { trigger = { always = yes } y = -1 }
 		prerequisite = {
 			focus = IND_The_Hindu_Adoptions_and_Maintenance_Act
 		}
@@ -2460,7 +2575,9 @@ focus_tree = {
 	focus = {
 		id = IND_Unify_Society
 		icon = GFX_VIN_Stratified_Society
+		search_filters = {IC_FILTER}
 		cost = 10.00
+		offset = { trigger = { always = yes } y = -1 }
 		prerequisite = {
 			focus = IND_The_Hindu_Code_Bills
 		}
@@ -2474,7 +2591,9 @@ focus_tree = {
 	focus = {
 		id = IND_The_Hindu_Succession_Act
 		icon = GFX_goal_unknown
+		search_filters = {IC_FILTER}
 		cost = 10.00
+		offset = { trigger = { always = yes } y = -1 }
 		prerequisite = {
 			focus = IND_The_Hindu_Marriage_Act
 		}
@@ -2491,7 +2610,9 @@ focus_tree = {
 	focus = {
 		id = IND_The_Hindu_Minority_and_Guardianship_Act
 		icon = GFX_goal_unknown
+		search_filters = {IC_FILTER}
 		cost = 10.00
+		offset = { trigger = { always = yes } y = -1 }
 		prerequisite = {
 			focus = IND_The_Hindu_Marriage_Act
 		}
@@ -2508,7 +2629,9 @@ focus_tree = {
 	focus = {
 		id = IND_The_Hindu_Adoptions_and_Maintenance_Act
 		icon = GFX_goal_unknown
+		search_filters = {IC_FILTER}
 		cost = 10.00
+		offset = { trigger = { always = yes } y = -1 }
 		prerequisite = {
 			focus = IND_The_Hindu_Minority_and_Guardianship_Act
 		}
@@ -2525,7 +2648,9 @@ focus_tree = {
 	focus = {
 		id = IND_The_Hindu_Marriage_Act
 		icon = GFX_traditional_gender_culture
+		search_filters = {IC_FILTER}
 		cost = 10.00
+		offset = { trigger = { always = yes } y = -1 }
 		prerequisite = {
 			focus = IND_The_Hindu_Code_Bills
 		}
@@ -2539,7 +2664,9 @@ focus_tree = {
 	focus = {
 		id = IND_Establish_the_LIC_of_India
 		icon = GFX_healthcare
+		search_filters = {IC_FILTER}
 		cost = 10.00
+		offset = { trigger = { always = yes } y = -1 }
 		prerequisite = {
 			focus = IND_The_Hindu_Adoptions_and_Maintenance_Act
 		}
@@ -2552,7 +2679,9 @@ focus_tree = {
 	focus = {
 		id = IND_Gentlemans_Agreement_at_Andhara_Pradesh
 		icon = GFX_KanslergadeMeeting
+		search_filters = {IC_FILTER}
 		cost = 10.00
+		offset = { trigger = { always = yes } y = -1 }
 		prerequisite = {
 			focus = IND_The_State_Reorganization_Act
 		}
@@ -2577,7 +2706,9 @@ focus_tree = {
 	focus = {
 		id = IND_Integrate_Kashmir
 		icon = GFX_goal_unknown
+		search_filters = {IC_FILTER}
 		cost = 10.00
+		offset = { trigger = { always = yes } y = -1 }
 		prerequisite = {
 			focus = IND_The_State_Reorganization_Act
 		}
@@ -2595,7 +2726,9 @@ focus_tree = {
 	focus = {
 		id = IND_The_Copyright_Act_of_1957
 		icon = GFX_goal_unknown
+		search_filters = {IC_FILTER}
 		cost = 10.00
+		offset = { trigger = { always = yes } y = -1 }
 		prerequisite = {
 			focus = IND_Integrate_Kashmir
 		}
@@ -2645,7 +2778,9 @@ focus_tree = {
 	focus = {
 		id = IND_The_Dalit_Buddhism_Movement
 		icon = GFX_SIA_buddhisttraditions
+		search_filters = {IC_FILTER}
 		cost = 10.00
+		offset = { trigger = { always = yes } y = -1 }
 		prerequisite = {
 			focus = IND_The_Hindu_Adoptions_and_Maintenance_Act
 		}
@@ -2658,8 +2793,10 @@ focus_tree = {
 
 	focus = {
 		id = IND_Jarwarlal_Nehru_Victory
-		icon = GFX_goal_unknown
+		icon = GFX_Indian_National_Congress
+		search_filters = {IC_FILTER}
 		cost = 10.00
+		offset = { trigger = { always = yes } y = -1 }
 		prerequisite = {
 			focus = IND_The_Elections_of_1957
 		}
@@ -2671,8 +2808,10 @@ focus_tree = {
 	}	
 	focus = {
 		id = IND_INC_Dominance
-		icon = GFX_goal_unknown
+		icon = GFX_Political_Support
+		search_filters = {IC_FILTER}
 		cost = 10.00
+		offset = { trigger = { always = yes } y = -1 }
 		prerequisite = {
 			focus = IND_Jarwarlal_Nehru_Victory
 		}
@@ -2688,7 +2827,9 @@ focus_tree = {
 	focus = {
 		id = IND_Begin_the_Indian_Five_Year_Plans
 		icon = GFX_finish_the_five_year_plan
+		search_filters = {IC_FILTER}
 		cost = 10.00
+		offset = { trigger = { always = yes } y = -1 }
 		prerequisite = {
 			focus = IND_Jarwarlal_Nehru_Victory
 		}
@@ -2703,8 +2844,10 @@ focus_tree = {
 	}
 	focus = {
 		id = IND_Blue_Collar_Benefits
-		icon = GFX_goal_unknown
+		icon = GFX_CommunistProductionFocus
+		search_filters = {IC_FILTER}
 		cost = 10.00
+		offset = { trigger = { always = yes } y = -1 }
 		prerequisite = {
 			focus = IND_Begin_the_Indian_Five_Year_Plans
 		}
@@ -2723,7 +2866,9 @@ focus_tree = {
 	focus = {
 		id = IND_Nationalization_of_Heavy_Industry
 		icon = GFX_NationalizeTrade
+		search_filters = {IC_FILTER}
 		cost = 10.00
+		offset = { trigger = { always = yes } y = -1 }
 		prerequisite = {
 			focus = IND_INC_Dominance
 		}
@@ -2739,7 +2884,9 @@ focus_tree = {
 	focus = {
 		id = IND_Nuclear_Development
 		icon = GFX_Nuclear_Energy
+		search_filters = {IC_FILTER}
 		cost = 10.00
+		offset = { trigger = { always = yes } y = -1 }
 		prerequisite = {
 			focus = IND_Nationalization_of_Heavy_Industry
 		}
@@ -2760,7 +2907,9 @@ focus_tree = {
 	focus = {
 		id = IND_French_Nuclear_Aid
 		icon = GFX_nuclear_Power
+		search_filters = {IC_FILTER}
 		cost = 10.00
+		offset = { trigger = { always = yes } y = -1 }
 		prerequisite = {
 			focus = IND_Nuclear_Development
 		}
@@ -2778,7 +2927,9 @@ focus_tree = {
 	focus = {
 		id = IND_Seek_Canadian_Cooperation
 		icon = GFX_The_Canadian_Economy
+		search_filters = {IC_FILTER}
 		cost = 10.00
+		offset = { trigger = { always = yes } y = -1 }
 		prerequisite = {
 			focus = IND_Nuclear_Development
 		}
@@ -2816,7 +2967,9 @@ focus_tree = {
 	focus = {
 		id = IND_Nuclear_Research_Investments
 		icon = GFX_nuclear_detonation
+		search_filters = {IC_FILTER}
 		cost = 10.00
+		offset = { trigger = { always = yes } y = -1 }
 		prerequisite = {
 			focus = IND_Nuclear_Development
 		}
@@ -2834,7 +2987,9 @@ focus_tree = {
 	focus = {
 		id = IND_Develop_a_Power_Grid
 		icon = GFX_1st_Electric_Program
+		search_filters = {IC_FILTER}
 		cost = 10.00
+		offset = { trigger = { always = yes } y = -1 }
 		prerequisite = {
 			focus = IND_French_Nuclear_Aid
 		}
@@ -2873,7 +3028,9 @@ focus_tree = {
 	focus = {
 		id = IND_Disavow_Nuclear_Enrichment_Ambitions
 		icon = GFX_no_nukes
+		search_filters = {IC_FILTER}
 		cost = 10.00
+		offset = { trigger = { always = yes } y = -1 }
 		prerequisite = {
 			focus = IND_Seek_Canadian_Cooperation
 		}
@@ -2883,14 +3040,16 @@ focus_tree = {
 		x = 27
 		y = 35
 		completion_reward = {
-			news_event = India_Nuclear.1
+			add_political_power = 75
 			add_threat = -5
 		}
 	}
 	focus = {
 		id = IND_The_New_Delhi_Labor_Congress
 		icon = GFX_SP_focus_shadow_government
+		search_filters = {IC_FILTER}
 		cost = 10.00
+		offset = { trigger = { always = yes } y = -1 }
 		prerequisite = {
 			focus = IND_Disavow_Nuclear_Enrichment_Ambitions
 		}
@@ -2906,20 +3065,27 @@ focus_tree = {
 	focus = {
 		id = IND_Deploy_the_Military_to_the_Seven_Sister_States
 		icon = GFX_bombing3
+		search_filters = {IC_FILTER}
 		cost = 10.00
+		offset = { trigger = { always = yes } y = -1 }
 		prerequisite = {
 			focus = IND_The_New_Delhi_Labor_Congress
 		}
 		x = 22
 		y = 37
 		completion_reward = {
-			country_event = India.50
+			add_timed_idea = {
+				idea = martial_law
+				days = 1250
+			}
 		}
 	}
 	focus = {
 		id = IND_The_Armed_Forces_Act
 		icon = GFX_Military_Cabinet
+		search_filters = {IC_FILTER}
 		cost = 10.00
+		offset = { trigger = { always = yes } y = -1 }
 		prerequisite = {
 			focus = IND_The_New_Delhi_Labor_Congress
 		}
@@ -2934,7 +3100,9 @@ focus_tree = {
 	focus = {
 		id = IND_Guarentee_Regional_Provincial_Stability
 		icon = GFX_Status
+		search_filters = {IC_FILTER}
 		cost = 10.00
+		offset = { trigger = { always = yes } y = -1 }
 		prerequisite = {
 			focus = IND_The_New_Delhi_Labor_Congress
 		}
@@ -2947,7 +3115,9 @@ focus_tree = {
 	focus = {
 		id = IND_Establish_State_Universities
 		icon = GFX_Universities
+		search_filters = {IC_FILTER}
 		cost = 10.00
+		offset = { trigger = { always = yes } y = -1 }
 		prerequisite = {
 			focus = IND_The_Armed_Forces_Act
 		}
@@ -2962,8 +3132,10 @@ focus_tree = {
 	}
 	focus = {
 		id = IND_The_Standards_of_Weights_and_Measures_Act
-		icon = GFX_goal_unknown
+		icon = GFX_Gold
+		search_filters = {IC_FILTER}
 		cost = 10.00
+		offset = { trigger = { always = yes } y = -1 }
 		prerequisite = {
 			focus = IND_The_Armed_Forces_Act
 		}
@@ -3013,7 +3185,9 @@ focus_tree = {
 	focus = {
 		id = IND_Subsidize_the_Auto_Industry
 		icon = GFX_Auto_Factories
+		search_filters = {IC_FILTER}
 		cost = 10.00
+		offset = { trigger = { always = yes } y = -1 }
 		prerequisite = {
 			focus = IND_The_Standards_of_Weights_and_Measures_Act
 		}
@@ -3043,8 +3217,10 @@ focus_tree = {
 	}
 	focus = {
 		id = IND_State_Hinduism
-		icon = GFX_goal_unknown
+		icon = GFX_State_Hinduism
+		search_filters = {IC_FILTER}
 		cost = 10.00
+		offset = { trigger = { always = yes } y = -1 }
 		prerequisite = {
 			focus = IND_The_Ghosh_Administration
 		}
@@ -3056,8 +3232,10 @@ focus_tree = {
 	}
 	focus = {
 		id = IND_A_National_Propaganda_Campaign
-		icon = GFX_focus_red_propaganda
+		icon = GFX_fist
+		search_filters = {IC_FILTER}
 		cost = 10.00
+		offset = { trigger = { always = yes } y = -1 }
 		prerequisite = {
 			focus = IND_State_Hinduism
 		}
@@ -3073,7 +3251,9 @@ focus_tree = {
 	focus = {
 		id = IND_Promote_Traditional_Culture
 		icon = GFX_traditional_gender_roles
+		search_filters = {IC_FILTER}
 		cost = 10.00
+		offset = { trigger = { always = yes } y = -1 }
 		prerequisite = {
 			focus = IND_State_Hinduism
 		}
@@ -3089,7 +3269,9 @@ focus_tree = {
 	focus = {
 		id = IND_Outreach_to_the_United_States
 		icon = GFX_goal_USA_deal
+		search_filters = {IC_FILTER}
 		cost = 10.00
+		offset = { trigger = { always = yes } y = -1 }
 		prerequisite = {
 			focus = IND_Promote_Traditional_Culture
 		}
@@ -3117,7 +3299,9 @@ focus_tree = {
 	focus = {
 		id = IND_Captialist_Reforms
 		icon = GFX_CapitalistSystems
+		search_filters = {IC_FILTER}
 		cost = 10.00
+		offset = { trigger = { always = yes } y = -1 }
 		prerequisite = {
 			focus = IND_Promote_Traditional_Culture
 		}
@@ -3135,8 +3319,10 @@ focus_tree = {
 	}
 	focus = {
 		id = IND_Protest_Ceylonese_Independence
-		icon = GFX_goal_unknown
+		icon = GFX_Generic_Irredentism
+		search_filters = {IC_FILTER}
 		cost = 10.00
+		offset = { trigger = { always = yes } y = -1 }
 		prerequisite = {
 			focus = IND_Captialist_Reforms
 		}
@@ -3146,7 +3332,7 @@ focus_tree = {
 		x = 14
 		y = 34
 		completion_reward = {
-			news_event = India.100
+			add_threat = 2
 			SRL = {
 				every_owned_state = {
 					add_core_of = RAJ
@@ -3156,8 +3342,10 @@ focus_tree = {
 	}
 	focus = {
 		id = IND_Ally_with_Afghanistan
-		icon = GFX_goal_unknown
+		icon = GFX_India_Subcontinent_Border_Conflicts
+		search_filters = {IC_FILTER}
 		cost = 10.00
+		offset = { trigger = { always = yes } y = -1 }
 		prerequisite = {
 			focus = IND_Protest_Ceylonese_Independence
 		}
@@ -3182,7 +3370,9 @@ focus_tree = {
 	focus = {
 		id = IND_Militarize_the_Pakistani_Border
 		icon = GFX_FortificationEffort
+		search_filters = {IC_FILTER}
 		cost = 10.00
+		offset = { trigger = { always = yes } y = -1 }
 		prerequisite = {
 			focus = IND_Protest_Ceylonese_Independence
 		}
@@ -3227,7 +3417,9 @@ focus_tree = {
 	focus = {
 		id = IND_Fortify_the_Chinese_Border
 		icon = GFX_Cash_for_Forts
+		search_filters = {IC_FILTER}
 		cost = 10.00
+		offset = { trigger = { always = yes } y = -1 }
 		prerequisite = {
 			focus = IND_Protest_Ceylonese_Independence
 		}
@@ -3250,7 +3442,9 @@ focus_tree = {
 	focus = {
 		id = IND_Subjugate_Nepal
 		icon = GFX_goal_unknown
+		search_filters = {IC_FILTER}
 		cost = 10.00
+		offset = { trigger = { always = yes } y = -1 }
 		prerequisite = {
 			focus = IND_Ally_with_Afghanistan
 		}
@@ -3290,7 +3484,9 @@ focus_tree = {
 	focus = {
 		id = IND_Subjugate_Bhutan
 		icon = GFX_goal_unknown
+		search_filters = {IC_FILTER}
 		cost = 10.00
+		offset = { trigger = { always = yes } y = -1 }
 		prerequisite = {
 			focus = IND_Militarize_the_Pakistani_Border
 		}
@@ -3330,7 +3526,9 @@ focus_tree = {
 	focus = {
 		id = IND_Secure_Tibetan_Influence
 		icon = GFX_Tibetan_Pennant
+		search_filters = {IC_FILTER}
 		cost = 10.00
+		offset = { trigger = { always = yes } y = -1 }
 		prerequisite = {
 			focus = IND_Subjugate_Bhutan
 		}
@@ -3376,8 +3574,10 @@ focus_tree = {
 	}
 	focus = {
 		id = IND_Aid_the_Burmese_Kuomitang
-		icon = GFX_goal_unknown
+		icon = GFX_DarkArms
+		search_filters = {IC_FILTER}
 		cost = 10.00
+		offset = { trigger = { always = yes } y = -1 }
 		prerequisite = {
 			focus = IND_Secure_Tibetan_Influence
 		}
@@ -3400,8 +3600,10 @@ focus_tree = {
 	}
 	focus = {
 		id = IND_Solidify_Keralan_Support
-		icon = GFX_goal_unknown
+		icon = GFX_WorkersSupport
+		search_filters = {IC_FILTER}
 		cost = 10.00
+		offset = { trigger = { always = yes } y = -1 }
 		prerequisite = {
 			focus = IND_The_Naboordiripad_Administration
 		}
@@ -3419,7 +3621,9 @@ focus_tree = {
 	focus = {
 		id = IND_Secular_Education_Reform
 		icon = GFX_prioritize_western_education
+		search_filters = {IC_FILTER}
 		cost = 10.00
+		offset = { trigger = { always = yes } y = -1 }
 		prerequisite = {
 			focus = IND_Collectivize_Agriculture
 		}
@@ -3432,7 +3636,9 @@ focus_tree = {
 	focus = {
 		id = IND_Agrarian_Reform
 		icon = GFX_Agricultural_Subsidies
+		search_filters = {IC_FILTER}
 		cost = 10.00
+		offset = { trigger = { always = yes } y = -1 }
 		prerequisite = {
 			focus = IND_Solidify_Keralan_Support
 		}
@@ -3445,7 +3651,9 @@ focus_tree = {
 	focus = {
 		id = IND_The_First_Five_Year_Plan
 		icon = GFX_Five_Year_Plan
+		search_filters = {IC_FILTER}
 		cost = 10.00
+		offset = { trigger = { always = yes } y = -1 }
 		prerequisite = {
 			focus = IND_Agrarian_Reform
 		}
@@ -3470,7 +3678,9 @@ focus_tree = {
 	focus = {
 		id = IND_Heavy_Industry_Initiative
 		icon = GFX_SAU_develop_the_heavy_industry
+		search_filters = {IC_FILTER}
 		cost = 10.00
+		offset = { trigger = { always = yes } y = -1 }
 		prerequisite = {
 			focus = IND_The_First_Five_Year_Plan
 		}
@@ -3495,7 +3705,9 @@ focus_tree = {
 	focus = {
 		id = IND_State_Atheism
 		icon = GFX_generic_atheist_science
+		search_filters = {IC_FILTER}
 		cost = 10.00
+		offset = { trigger = { always = yes } y = -1 }
 		prerequisite = {
 			focus = IND_The_First_Five_Year_Plan
 		}
@@ -3508,7 +3720,9 @@ focus_tree = {
 	focus = {
 		id = IND_Aid_Our_Farmers
 		icon = GFX_focus_agriculture_3
+		search_filters = {IC_FILTER}
 		cost = 10.00
+		offset = { trigger = { always = yes } y = -1 }
 		prerequisite = {
 			focus = IND_The_First_Five_Year_Plan
 		}
@@ -3521,7 +3735,9 @@ focus_tree = {
 	focus = {
 		id = IND_Join_COMECON
 		icon = GFX_COMECON_Alt
+		search_filters = {IC_FILTER}
 		cost = 10.00
+		offset = { trigger = { always = yes } y = -1 }
 		prerequisite = {
 			focus = IND_State_Atheism
 		}
@@ -3537,7 +3753,9 @@ focus_tree = {
 	focus = {
 		id = IND_Increase_Access_to_Healthcare
 		icon = GFX_healthcare
+		search_filters = {IC_FILTER}
 		cost = 10.00
+		offset = { trigger = { always = yes } y = -1 }
 		prerequisite = {
 			focus = IND_Aid_Our_Farmers
 		}
@@ -3556,7 +3774,9 @@ focus_tree = {
 	focus = {
 		id = IND_The_Global_Revolution
 		icon = GFX_global_revolution_syn
+		search_filters = {IC_FILTER}
 		cost = 10.00
+		offset = { trigger = { always = yes } y = -1 }
 		prerequisite = {
 			focus = IND_Join_COMECON
 		}
@@ -3572,7 +3792,9 @@ focus_tree = {
 	focus = {
 		id = IND_Sino_Indian_Treaty_of_Friendship
 		icon = GFX_Sino_Indian_Deal
+		search_filters = {IC_FILTER}
 		cost = 10.00
+		offset = { trigger = { always = yes } y = -1 }
 		prerequisite = {
 			focus = IND_The_Global_Revolution
 		}
@@ -3596,7 +3818,9 @@ focus_tree = {
 	focus = {
 		id = IND_Korean_Cooperation
 		icon = GFX_goal_KOR_deal
+		search_filters = {IC_FILTER}
 		cost = 10.00
+		offset = { trigger = { always = yes } y = -1 }
 		prerequisite = {
 			focus = IND_The_Global_Revolution
 		}
@@ -3624,7 +3848,9 @@ focus_tree = {
 	focus = {
 		id = IND_Influence_Ceylon
 		icon = GFX_goal_unknown
+		search_filters = {IC_FILTER}
 		cost = 10.00
+		offset = { trigger = { always = yes } y = -1 }
 		prerequisite = {
 			focus = IND_Sino_Indian_Treaty_of_Friendship
 		}
@@ -3644,8 +3870,10 @@ focus_tree = {
 	}
 	focus = {
 		id = IND_Influence_Pakistani_Communists
-		icon = GFX_goal_unknown
+		icon = GFX_focus_red_propaganda
+		search_filters = {IC_FILTER}
 		cost = 10.00
+		offset = { trigger = { always = yes } y = -1 }
 		prerequisite = {
 			focus = IND_Korean_Cooperation
 		}
@@ -3667,7 +3895,9 @@ focus_tree = {
 	focus = {
 		id = IND_Mission_to_Moscow
 		icon = GFX_Kremlin
+		search_filters = {IC_FILTER}
 		cost = 10.00
+		offset = { trigger = { always = yes } y = -1 }
 		prerequisite = {
 			focus = IND_Influence_Ceylon
 		}
@@ -3694,7 +3924,9 @@ focus_tree = {
 	focus = {
 		id = IND_Aid_the_Vietminh
 		icon = GFX_Viet_Cong_Icon
+		search_filters = {IC_FILTER}
 		cost = 10.00
+		offset = { trigger = { always = yes } y = -1 }
 		prerequisite = {
 			focus = IND_Mission_to_Moscow
 		}

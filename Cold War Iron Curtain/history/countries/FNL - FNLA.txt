@@ -78,7 +78,6 @@ set_technology = {
 }
 
 add_ideas = {
-	population_growth_explosion
 }
 
 set_convoys = 6
@@ -128,4 +127,7 @@ create_country_leader = {
 	name = "Holden Roberto"
 	picture = "Holden_Roberto.dds"
 	ideology = christian_democracy
+}
+1956.1.1 ={
+	set_cosmetic_tag = FNLA
 }
